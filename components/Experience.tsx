@@ -119,7 +119,7 @@ const Experience: React.FC<{}> = () => {
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
               <Image
-                src={"/DoorDash.svg"}
+                src={"/doordash.svg"}
                 height={30}
                 width={30}
                 alt={"experience"}
