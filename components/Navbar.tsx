@@ -58,7 +58,7 @@ const Navbar: React.FC<{}> = () => {
 
         <div className="flex flex-row gap-5">
           <motion.div
-            onClick={() => scrollToSection("#about", 50)}
+            onClick={() => scrollToSection("#about", 120)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -67,7 +67,7 @@ const Navbar: React.FC<{}> = () => {
           </motion.div>
 
           <motion.div
-            onClick={() => scrollToSection("#projects", 50)}
+            onClick={() => scrollToSection("#projects", 100)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -76,7 +76,7 @@ const Navbar: React.FC<{}> = () => {
           </motion.div>
 
           <motion.div
-            onClick={() => scrollToSection("#experience", 50)}
+            onClick={() => scrollToSection("#experience", 100)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -85,7 +85,7 @@ const Navbar: React.FC<{}> = () => {
           </motion.div>
 
           <motion.div
-            onClick={() => scrollToSection("#education", 50)}
+            onClick={() => scrollToSection("#education", 100)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
