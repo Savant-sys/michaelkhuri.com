@@ -86,7 +86,7 @@ const Projects: React.FC<{}> = () => {
           title="Pirate Ship Game"
           description="Developed a JavaScript game on Code Studio where the player controls the wings using arrow keys on the keyboard."
           link="https://studio.code.org/projects/applab/9F9zA96PI2__OC4URjdyFGyobeXOxntitbp2-RlKtBE"
-          image="/nineproject.png"
+          image="/NineProject.png"
           websiteLink="https://studio.code.org/projects/applab/9F9zA96PI2__OC4URjdyFGyobeXOxntitbp2-RlKtBE"
         />
 
@@ -103,7 +103,7 @@ const Projects: React.FC<{}> = () => {
           title="Recipe Application"
           description="Developed a recipe application in Python using TheMealDB website's database for recipe information."
           link="https://github.com/Savant-sys/The-Recipe-Application"
-          image="/sevenproject.png"
+          image="/SevenProject.png"
           githubLink="https://github.com/Savant-sys/The-Recipe-Application"
         />
 
@@ -111,7 +111,7 @@ const Projects: React.FC<{}> = () => {
           title="Table Tennis Game"
           description="Developed a JavaScript game on Code Studio where two players can play using the same keyboard with arrow keys and WASD controls."
           link="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
-          image="/eightProject.png"
+          image="/EightProject.png"
           websiteLink="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
         />
 
@@ -119,7 +119,7 @@ const Projects: React.FC<{}> = () => {
           title="Project Green Tusk"
           description="Developed a website using HTML, CSS, PHP, JavaScript, and SQL for user login and registration during a CSUF hackathon. The site, built in under 24 hours, allows users to study environmental lessons and donate to charities of their choice through sidebar ads."
           link="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
-          image="/fiveProject.png"
+          image="/FiveProject.png"
           githubLink="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
         />
       </motion.div>
