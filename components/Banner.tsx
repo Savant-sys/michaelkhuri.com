@@ -37,7 +37,6 @@ const Banner: React.FC<{}> = () => {
             height={250}
             width={250}
             alt="Michael Khuri"
-            className="rounded-full"
           />
         </motion.div>
 
