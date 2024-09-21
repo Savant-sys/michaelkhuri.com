@@ -43,7 +43,7 @@ const Banner: React.FC<{}> = () => {
           className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px] animate-bounce"
           variants={fadeInUp}
         >
-          Michael Khuri!
+          Michael Khuri
         </motion.div>
 
         <motion.div className="flex justify-center mt-2 md:mt-4" variants={fadeInUp}>
