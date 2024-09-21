@@ -1,11 +1,10 @@
 "use client";
 import React, { useEffect } from "react";
-import { Social_Icons } from "@/constant"; // Make sure only GitHub and LinkedIn are in this array
+import { Social_Icons } from "@/constant";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-// Fade-in and slide-up effect
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
@@ -34,14 +33,14 @@ const Footer: React.FC<{}> = () => {
 
   return (
     <motion.div
-      className="container mx-auto 2xl pt-[50px] pb-8"
+      className="container mx-auto px-4 pt-6 pb-6 md:pt-[50px] md:pb-8"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      variants={fadeInUp} // Apply fade-in animation
+      variants={fadeInUp}
     >
       <motion.div
-        className="pb-10 justify-center flex"
+        className="pb-6 justify-center flex md:pb-10"
         variants={{
           hidden: { opacity: 0 },
           visible: {
@@ -64,15 +63,14 @@ const Footer: React.FC<{}> = () => {
                 width={30}
                 alt={social.alt}
                 sizes="100vw"
-                className="mx-5"
+                className="mx-3 md:mx-5"
               />
             </Link>
           </motion.div>
         ))}
       </motion.div>
 
-      {/* Footer Text with Current Year */}
-      <motion.p className="text-gray-300 text-center text-sm" variants={fadeInUp}>
+      <motion.p className="text-gray-300 text-center text-xs md:text-sm" variants={fadeInUp}>
         Created with 💜 using Next.js © {new Date().getFullYear()}
       </motion.p>
     </motion.div>

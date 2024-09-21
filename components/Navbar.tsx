@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 // Fade-in and slide-down effect for the Navbar
@@ -17,6 +17,8 @@ const fadeInDown = {
 };
 
 const Navbar: React.FC<{}> = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const scrollToSection = (id: string, offset: number) => {
     const element = document.querySelector(id);
     if (element) {
@@ -24,6 +26,7 @@ const Navbar: React.FC<{}> = () => {
         top: element.getBoundingClientRect().top + window.pageYOffset - offset,
         behavior: "smooth",
       });
+      setIsOpen(false); // Close menu on section click (for mobile)
     }
   };
 
@@ -32,30 +35,43 @@ const Navbar: React.FC<{}> = () => {
       top: 0,
       behavior: "smooth",
     });
+    setIsOpen(false);
   };
 
   return (
     <motion.div
-      className="w-full h-[65px] fixed backdrop-blur-sm z-50 px-10"
+      className="w-full h-[65px] fixed backdrop-blur-sm z-50 px-4 md:px-10"
       initial="hidden"
       animate="visible"
       variants={fadeInDown}
     >
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+      <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
+        {/* Logo */}
         <div
           onClick={scrollToTop}
-          className="h-auto w-auto flex flex-row items-center cursor-pointer"
+          className="h-auto w-auto flex items-center cursor-pointer"
         >
           <Image
             src="/logo.svg"
             alt="Michael Khuri Logo"
-            width={100}
-            height={100}
-            className="w-[100px] h-auto"
+            width={50}
+            height={50}
+            className="w-[70px] h-auto md:w-[100px] md:h-auto"
           />
         </div>
 
-        <div className="flex flex-row gap-5">
+        {/* Hamburger Icon for Mobile */}
+        <div className="block md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-white focus:outline-none"
+          >
+            {isOpen ? "✕" : "☰"} {/* Hamburger Menu Icon */}
+          </button>
+        </div>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex flex-row gap-5">
           <motion.div
             onClick={() => scrollToSection("#about", 120)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
@@ -101,6 +117,56 @@ const Navbar: React.FC<{}> = () => {
             Contact
           </motion.div>
         </div>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <div className="absolute top-[65px] left-0 w-full bg-black flex flex-col items-center gap-5 py-5 md:hidden">
+            <motion.div
+              onClick={() => scrollToSection("#about", 120)}
+              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              About
+            </motion.div>
+
+            <motion.div
+              onClick={() => scrollToSection("#projects", 100)}
+              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Projects
+            </motion.div>
+
+            <motion.div
+              onClick={() => scrollToSection("#experience", 100)}
+              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Experience
+            </motion.div>
+
+            <motion.div
+              onClick={() => scrollToSection("#education", 100)}
+              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Education
+            </motion.div>
+
+            <motion.div
+              onClick={() => window.open("mailto:michaelkhuri@gmail.com")}
+              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Contact
+            </motion.div>
+          </div>
+        )}
       </div>
     </motion.div>
   );

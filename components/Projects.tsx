@@ -20,7 +20,7 @@ const Projects: React.FC<{}> = () => {
   return (
     <motion.section
       id="projects"
-      className="py-8"
+      className="py-6 md:py-8" // Adjusted padding for mobile
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -30,13 +30,13 @@ const Projects: React.FC<{}> = () => {
       }}
     >
       <motion.h2
-        className="text-white font-semibold text-center text-6xl"
+        className="text-white font-semibold text-center text-4xl md:text-6xl" // Responsive font size for mobile
         variants={fadeInUp}
       >
         PROJECTS
       </motion.h2>
       <motion.p
-        className="tracking-[0.5em] text-center text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-1xl"
+        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-sm md:text-1xl" // Adjusted for mobile
         variants={fadeInUp}
       >
         EXPLORE NOW
@@ -44,7 +44,7 @@ const Projects: React.FC<{}> = () => {
 
       {/* Projects Grid */}
       <motion.div
-        className="mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        className="mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8" // Reduced gap for mobile
         variants={{
           hidden: { opacity: 0 },
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
@@ -148,30 +148,30 @@ const ProjectCard: React.FC<{
       <div className="bg-gray-800 bg-opacity-50 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
         <Image
           src={image}
-          height={200}
-          width={300}
+          height={150}
+          width={250}
           alt={title}
           className="w-full object-cover"
         />
-        <div className="p-4">
-          <h3 className="text-white font-semibold text-xl mb-2">{title}</h3>
-          <p className="text-gray-400 text-[14px]">{description}</p>
+        <div className="p-3 md:p-4">
+          <h3 className="text-white font-semibold text-lg md:text-xl mb-2">{title}</h3>
+          <p className="text-gray-400 text-sm md:text-[14px]">{description}</p>
 
           {/* Links to YouTube, GitHub, Website */}
-          <div className="flex space-x-4 mt-4">
+          <div className="flex space-x-3 md:space-x-4 mt-4">
             {githubLink && (
               <Link href={githubLink} target="_blank" rel="noopener noreferrer">
-                <Image src="/Github.svg" alt="GitHub" width={24} height={24} />
+                <Image src="/Github.svg" alt="GitHub" width={20} height={20} />
               </Link>
             )}
             {websiteLink && (
               <Link href={websiteLink} target="_blank" rel="noopener noreferrer">
-                <Image src="/website.svg" alt="Website" width={24} height={24} />
+                <Image src="/website.svg" alt="Website" width={20} height={20} />
               </Link>
             )}
             {youtubeLink && (
               <Link href={youtubeLink} target="_blank" rel="noopener noreferrer">
-                <Image src="/youtube.svg" alt="YouTube Demo" width={24} height={24} />
+                <Image src="/youtube.svg" alt="YouTube Demo" width={20} height={20} />
               </Link>
             )}
           </div>

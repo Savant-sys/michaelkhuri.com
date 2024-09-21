@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Animation variants for fade-in and slide-up
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
@@ -19,8 +18,7 @@ const About: React.FC<{}> = () => {
   return (
     <motion.section
       id="about"
-      className="flex flex-col items-center justify-center h-full relative"
-      style={{ transform: "scale(0.9)" }}
+      className="flex flex-col items-center justify-center h-full relative px-4 md:px-10"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -33,16 +31,22 @@ const About: React.FC<{}> = () => {
         className="flex flex-col justify-around flex-wrap items-center max-w-[900px]"
         variants={fadeInUp}
       >
-        <motion.h1 className="text-white font-semibold text-6xl" variants={fadeInUp}>
+        <motion.h1
+          className="text-white font-semibold text-4xl md:text-6xl"
+          variants={fadeInUp}
+        >
           ABOUT ME
         </motion.h1>
         <motion.p
-          className="tracking-[0.5em] text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-1xl"
+          className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-sm md:text-1xl"
           variants={fadeInUp}
         >
           EXPLORE NOW
         </motion.p>
-        <motion.p className="text-gray-300 text-center text-lg" variants={fadeInUp}>
+        <motion.p
+          className="text-gray-300 text-center text-sm md:text-lg"
+          variants={fadeInUp}
+        >
           I am an aspiring software engineer with a passion for learning and solving complex problems.
           My goal is to become an SDE/Software Engineer, with a strong focus on AI/ML. I enjoy building
           efficient and scalable solutions, always exploring new technologies to expand my skill set.

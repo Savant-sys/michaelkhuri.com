@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-// Fade-in and slide-up effect for each education block
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
@@ -31,7 +30,7 @@ const Education: React.FC<{}> = () => {
     >
       {/* Heading */}
       <motion.h2
-        className="text-white font-semibold text-center text-6xl"
+        className="text-white font-semibold text-center text-4xl md:text-6xl"
         variants={fadeInUp}
       >
         EDUCATION
