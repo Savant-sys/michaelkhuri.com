@@ -18,7 +18,7 @@ const About: React.FC<{}> = () => {
   return (
     <motion.section
       id="about"
-      className="flex flex-col items-center justify-center h-full relative px-4 md:px-10"
+      className="flex flex-col items-center justify-center h-full relative px-4 md:px-10 py-6"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}

@@ -40,7 +40,7 @@ const Banner: React.FC<{}> = () => {
         </motion.div>
 
         <motion.div
-          className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px]"
+          className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px] animate-bounce"
           variants={fadeInUp}
         >
           Michael Khuri!
@@ -64,12 +64,12 @@ const Banner: React.FC<{}> = () => {
         </motion.div>
 
         {/* Subtitle */}
-        <motion.p className="text-sm md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
+        <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
           Passionate about becoming a Software Engineer, with a strong interest in AI/ML and a focus on learning and building efficient solutions.
         </motion.p>
 
         {/* Contact Button */}
-        <motion.div className="text-sm md:text-md flex justify-center mt-2" variants={fadeInUp}>
+        <motion.div className="text-base md:text-md flex justify-center mt-2" variants={fadeInUp}>
           <button
             onClick={() => window.open("mailto:michaelkhuri@gmail.com")}
             className="hover:bg-white rounded-3xl text-white font-semibold hover:text-black py-2 md:py-3 px-6 md:px-10 border-[0.1px] border-white hover:border-transparent"
@@ -79,7 +79,7 @@ const Banner: React.FC<{}> = () => {
         </motion.div>
 
         {/* Resume Button */}
-        <motion.div className="text-sm md:text-md flex justify-center mt-2" variants={fadeInUp}>
+        <motion.div className="text-base md:text-md flex justify-center mt-2" variants={fadeInUp}>
           <button
             onClick={() => window.open("Michael_Khuri_Resume.pdf")}
             className="hover:bg-white rounded-3xl text-white font-semibold hover:text-black py-2 md:py-3 px-6 md:px-10 border-[0.1px] border-white hover:border-transparent"

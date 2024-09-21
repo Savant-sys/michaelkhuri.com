@@ -56,7 +56,7 @@ const Navbar: React.FC<{}> = () => {
             alt="Michael Khuri Logo"
             width={50}
             height={50}
-            className="w-[70px] h-auto md:w-[100px] md:h-auto"
+            className="w-[70px] h-auto md:w-[100px] md:h-auto transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer"
           />
         </div>
 
@@ -64,9 +64,9 @@ const Navbar: React.FC<{}> = () => {
         <div className="block md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none transition-transform duration-300 ease-in-out hover:scale-110"
           >
-            {isOpen ? "✕" : "☰"} {/* Hamburger Menu Icon */}
+            {isOpen ? "✕" : "☰"}
           </button>
         </div>
 
