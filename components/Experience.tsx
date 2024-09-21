@@ -127,7 +127,7 @@ const Experience: React.FC<{}> = () => {
             </div>
             <p className="text-gray-300">Dasher/Delivery Driver</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2 md:pt-0">July 2020 - Present</p>
+          <p className="text-gray-300 md:pt-0 pt-2">July 2020 - Present</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
