@@ -51,7 +51,6 @@ const Navbar: React.FC<{}> = () => {
             alt="Michael Khuri Logo"
             width={100}
             height={100}
-            layout="intrinsic"
             className="w-[100px] h-auto"
           />
         </div>

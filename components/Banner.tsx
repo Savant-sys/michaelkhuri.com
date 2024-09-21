@@ -56,7 +56,7 @@ const Banner: React.FC<{}> = () => {
               Repeat
             </span>
           </p>
-          <Image src="/catbongo.gif" height={50} width={50} alt="repeat" />
+          <Image src="/catbongo.gif" height={40} width={50} alt="repeat" unoptimized />
         </motion.div>
 
         {/* Subtitle */}
