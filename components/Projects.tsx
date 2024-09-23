@@ -67,7 +67,7 @@ const Projects: React.FC<{}> = () => {
         />
         <ProjectCard
           title="MyClubBoard"
-          description="Developed the website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
+          description="Developed a website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
           link="https://github.com/anhduy1202/MyClubBoard"
           image="/ThirdProject.png"
           githubLink="https://github.com/anhduy1202/MyClubBoard"
@@ -75,7 +75,7 @@ const Projects: React.FC<{}> = () => {
         />
         <ProjectCard
           title="SiblingAI"
-          description="Designed the website that utilized the JS similarity API to recognize similar phrases with 60% accuracy, where users can have conversations with an AI chatbot using JavaScript, CSS, and Next.js."
+          description="Designed a website that utilized the JS similarity API to recognize similar phrases with 60% accuracy, where users can have conversations with an AI chatbot using JavaScript, CSS, and Next.js."
           link="https://github.com/Savant-sys/siblingAI"
           image="/FourProject.png"
           githubLink="https://github.com/Savant-sys/siblingAI"
