@@ -67,7 +67,7 @@ const Projects: React.FC<{}> = () => {
         />
         <ProjectCard
           title="MyClubBoard"
-          description="Developed the website for students to manage universities' clubs and organizations using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
+          description="Developed the website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
           link="https://github.com/anhduy1202/MyClubBoard"
           image="/ThirdProject.png"
           githubLink="https://github.com/anhduy1202/MyClubBoard"
