@@ -15,7 +15,8 @@ const fadeInUp = {
   },
 };
 
-const Education: React.FC<{}> = () => {
+const Education: React.FC<{}> = () =>
+{
   return (
     <motion.section
       id="education"
@@ -67,7 +68,20 @@ const Education: React.FC<{}> = () => {
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Activities: Association for Computing Machinery Club
         </motion.p>
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Participated in two 24-hour hackathon events at CSUF and developed the projects below:
+        </motion.p>
+        <motion.p className="text-gray-300 pt-1 ml-3" variants={fadeInUp}>
+          • SmartTuffy
+        </motion.p>
+        <motion.p className="text-gray-300 pt-1 ml-3" variants={fadeInUp}>
+          • Project Green Tusk
+        </motion.p>
 
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Dean's List - Cum Laude
+        </motion.p>
+        
         {/* Saddleback College */}
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
@@ -91,6 +105,9 @@ const Education: React.FC<{}> = () => {
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Certificate: IGETC (Certificate of Achievement)
+        </motion.p>
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Dean's List
         </motion.p>
 
         {/* El Toro High School */}
