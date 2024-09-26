@@ -1,4 +1,6 @@
-# Personal Developer Portfolio: michaelkhuri.com
+# Personal Portfolio Website: michaelkhuri.com
+
+Optimized for seamless viewing on both mobile and desktop devices.
 
 ## Deployment
 Every branch is automatically deployed by Vercel with their GitHub integration, where the main branch is automatically aliased to michaelkhuri.com

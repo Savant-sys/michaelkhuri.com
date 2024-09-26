@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-// Fade-in and slide-down effect for the Navbar
 const fadeInDown = {
   hidden: { opacity: 0, y: -50 },
   visible: {
@@ -26,7 +25,7 @@ const Navbar: React.FC<{}> = () => {
         top: element.getBoundingClientRect().top + window.pageYOffset - offset,
         behavior: "smooth",
       });
-      setIsOpen(false); // Close menu on section click (for mobile)
+      setIsOpen(false);
     }
   };
 

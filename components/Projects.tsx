@@ -123,6 +123,25 @@ const Projects: React.FC<{}> = () => {
           githubLink="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
         />
       </motion.div>
+      <motion.div
+        className="flex flex-col items-center mt-5"
+        variants={fadeInUp}
+      >
+        <Link href="https://github.com/Savant-sys" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 mt-5">
+          <motion.p
+            className="animate-bounce tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light bg-clip-text text-white text-sm md:text-lg flex items-center space-x-1"
+          >
+            Explore additional projects on my GitHub →
+          </motion.p>
+          <Image
+            src="/Github.svg"
+            alt="GitHub"
+            width={40}
+            height={40}
+            className="transition-transform duration-300 ease-in-out hover:scale-110"
+          />
+        </Link>
+      </motion.div>
     </motion.section>
   );
 };
