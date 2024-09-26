@@ -81,7 +81,7 @@ const Education: React.FC<{}> = () =>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Dean's List - Cum Laude
         </motion.p>
-        
+
         {/* Saddleback College */}
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
@@ -96,9 +96,9 @@ const Education: React.FC<{}> = () =>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Though my degree was in Liberal Arts, my primary focus was on
-          Computer Science coursework.
+          • Through my degree in Liberal Arts, my primary focus was on Computer Science coursework.
         </motion.p>
+
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Activities: Society of Asian Scientists & Engineers Club (Director
           of Social Media)
