@@ -79,7 +79,7 @@ const Education: React.FC<{}> = () =>
         </motion.p>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean's List - Cum Laude
+          • Dean&apos;s List - Cum Laude
         </motion.p>
 
         {/* Saddleback College */}
@@ -107,7 +107,7 @@ const Education: React.FC<{}> = () =>
           • Certificate: IGETC (Certificate of Achievement)
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean's List
+          • Dean&apos;s List
         </motion.p>
 
         {/* El Toro High School */}
