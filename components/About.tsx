@@ -52,7 +52,7 @@ const About: React.FC<{}> = () => {
           efficient and scalable solutions, always exploring new technologies to expand my skill set.
           <br />
           <br />
-          With a solid foundation in Python, C++, C#, JavaScript, Java, and R, I am eager to apply
+          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, and R, I am eager to apply
           my knowledge to real-world projects that create meaningful impact.
         </motion.p>
       </motion.div>
