@@ -35,7 +35,7 @@ const Banner: React.FC<{}> = () => {
             height={150}
             width={150}
             alt="Michael Khuri"
-            className="md:h-[250px] md:w-auto mt-5"
+            className="md:h-[250px] md:w-[250px] mt-5"
           />
         </motion.div>
 
