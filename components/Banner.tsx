@@ -84,7 +84,7 @@ const Banner: React.FC<{}> = () => {
             onClick={() => window.open("Michael_Khuri_Resume.pdf")}
             className="hover:bg-white rounded-3xl text-white font-semibold hover:text-black py-2 md:py-3 px-6 md:px-10 border-[0.1px] border-white hover:border-transparent"
           >
-            Résumé
+            Resumé
           </button>
         </motion.div>
       </div>
