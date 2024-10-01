@@ -96,7 +96,7 @@ const Education: React.FC<{}> = () =>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Though my degree in Liberal Arts, my primary focus was on Computer Science coursework.
+          • Though my degree is in Liberal Arts, my primary focus was on Computer Science coursework.
         </motion.p>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
