@@ -15,7 +15,8 @@ const fadeInUp = {
   },
 };
 
-const Experience: React.FC<{}> = () => {
+const Experience: React.FC<{}> = () =>
+{
   return (
     <motion.section
       id="experience"
@@ -106,69 +107,6 @@ const Experience: React.FC<{}> = () => {
             </div>
             <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
               Remote Support
-            </div>
-          </div>
-        </motion.div>
-
-        {/* DoorDash Experience */}
-        <motion.div
-          className="flex flex-col md:flex-row md:justify-between pt-5"
-          variants={fadeInUp}
-        >
-          <div className="flex flex-col items-start gap-1">
-            <div className="flex items-center gap-2 md:gap-3">
-              <Image
-                src={"/doordash.svg"}
-                height={30}
-                width={30}
-                alt={"experience"}
-              />
-              <p className="text-gray-300 font-semibold">DoorDash</p>
-            </div>
-            <p className="text-gray-300">Dasher/Delivery Driver</p>
-          </div>
-          <p className="text-gray-300 md:pt-0 pt-2">July 2020 - August 2024</p>
-        </motion.div>
-
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          As a DoorDash driver, I enhanced my time management and problem-solving
-          skills, efficiently managing delivery routes and resolving customer
-          issues. Additionally, I developed a strong sense of responsibility and
-          customer service while balancing this role with my academic pursuits.
-        </motion.p>
-
-        {/* Skill Tags for DoorDash */}
-        <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
-          <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Time Management
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Customer Service
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Problem Solving
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Attention to Detail
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Adaptability
-            </div>
-          </div>
-
-          <div className="flex flex-wrap gap-2 mt-3">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Communication
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Navigation and GPS Usage
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Self-Motivation
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Safety Awareness
             </div>
           </div>
         </motion.div>
