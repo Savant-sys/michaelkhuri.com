@@ -81,21 +81,21 @@ const Navbar: React.FC<{}> = () => {
           </motion.div>
 
           <motion.div
-            onClick={() => scrollToSection("#projects", 100)}
-            className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Projects
-          </motion.div>
-
-          <motion.div
             onClick={() => scrollToSection("#experience", 100)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             Experience
+          </motion.div>
+
+          <motion.div
+            onClick={() => scrollToSection("#projects", 100)}
+            className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Projects
           </motion.div>
 
           <motion.div

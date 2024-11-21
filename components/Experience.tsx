@@ -37,7 +37,7 @@ const Experience: React.FC<{}> = () =>
         EXPERIENCE
       </motion.h2>
       <motion.p
-        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-sm md:text-1xl"
+        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-blue-500 to-orange-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >
         EXPLORE NOW
@@ -65,17 +65,20 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          During my time at InBlue IT Solutions, I managed network installations,
-          security, and remote technical support for various clients. I gained
-          hands-on experience with network configuration and security tools,
-          while also staying up to date with the latest advancements in IT
-          infrastructure. <br />
-          <br />
-          I contributed to maintaining robust network systems by installing
-          firewalls, security cameras, and network devices, ensuring the smooth
-          operation of client systems. This role sharpened my skills in customer
-          service, problem-solving, and adapting to rapidly changing
-          technologies.
+          • Configured and installed network systems for client offices using Cisco ASA firewalls, Unifi switches, and IP security
+          cameras, ensuring secure and efficient operations.
+        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Developed a customer-focused website using WordPress, optimizing user experience and increasing client
+          engagement through SEO and design enhancements.
+        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Monitored and managed client login activities and security using Microsoft Azure, enhancing system reliability and
+          preventing unauthorized access.
+        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Provided remote technical support via AnyDesk, Quick Assist, and TeamViewer, resolving issues efficiently and
+          ensuring minimal downtime.
         </motion.p>
 
         {/* Skill Tags */}
@@ -96,9 +99,6 @@ const Experience: React.FC<{}> = () =>
             <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
               IP Address Management
             </div>
-          </div>
-
-          <div className="flex flex-wrap gap-2 mt-3">
             <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
               Network Monitoring
             </div>

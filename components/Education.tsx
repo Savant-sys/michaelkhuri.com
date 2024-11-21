@@ -37,7 +37,7 @@ const Education: React.FC<{}> = () =>
         EDUCATION
       </motion.h2>
       <motion.p
-        className="tracking-[0.5em] text-center text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-1xl"
+        className="tracking-[0.5em] text-center text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-blue-500 to-orange-400 text-1xl"
         variants={fadeInUp}
       >
         EXPLORE NOW
@@ -108,22 +108,6 @@ const Education: React.FC<{}> = () =>
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Dean&apos;s List
-        </motion.p>
-
-        {/* El Toro High School */}
-        <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
-          <div className="flex flex-col items-start gap-1">
-            <div className="flex items-center gap-3">
-              <Image src="/ElToro_logo.svg" height={30} width={30} alt="El Toro High School" />
-              <p className="text-gray-300 font-semibold">El Toro High School</p>
-            </div>
-            <p className="text-gray-300">High School Diploma</p>
-          </div>
-          <p className="text-gray-300 md:pt-0 pt-3">Aug 2016 - Jun 2020</p>
-        </motion.div>
-        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Activities: Robotic Rescue Club, UNICEF Club, Astronomy Club, Charger
-          Wellness Club, Esports Club
         </motion.p>
       </motion.div>
     </motion.section>

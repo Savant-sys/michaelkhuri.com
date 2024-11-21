@@ -36,7 +36,7 @@ const Projects: React.FC<{}> = () => {
         PROJECTS
       </motion.h2>
       <motion.p
-        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-blue-500 text-sm md:text-1xl"
+        className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-blue-500 to-orange-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >
         EXPLORE NOW
@@ -51,20 +51,13 @@ const Projects: React.FC<{}> = () => {
         }}
       >
         <ProjectCard
-          title="Detection"
-          description="Developed a virtual reality game in Unity using C# with a team of five. An immersive virtual reality first-person shooter where you need to scan your environment."
-          link="https://detectiongame.com/"
-          image="/FirstProject.png"
-          youtubeLink="https://www.youtube.com/watch?v=Dj0y_OX5fII"
-          websiteLink="https://detectiongame.com/"
-        />
-        <ProjectCard
           title="SmartTuffy"
           description="Developed an AI-powered chatbot website in 24 hours at a CSUF hackathon that helps college students discover their class schedules and club events using JavaScript, OpenAI API, and Next.js."
           link="https://github.com/Savant-sys/SmartTuffy"
           image="/SecondProject.png"
           githubLink="https://github.com/Savant-sys/SmartTuffy"
         />
+        
         <ProjectCard
           title="MyClubBoard"
           description="Developed a website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
@@ -73,13 +66,31 @@ const Projects: React.FC<{}> = () => {
           githubLink="https://github.com/anhduy1202/MyClubBoard"
           websiteLink="https://myclubboard-dev.vercel.app/"
         />
-        <ProjectCard
+
+          <ProjectCard
           title="SiblingAI"
           description="Designed a website that utilized the JS similarity API to recognize similar phrases with 60% accuracy, where users can have conversations with an AI chatbot using JavaScript, CSS, and Next.js."
           link="https://github.com/Savant-sys/siblingAI"
           image="/FourProject.png"
           githubLink="https://github.com/Savant-sys/siblingAI"
           websiteLink="https://sibling-ai.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Detection"
+          description="Developed a virtual reality game in Unity using C# with a team of five. An immersive virtual reality first-person shooter where you need to scan your environment."
+          link="https://detectiongame.com/"
+          image="/FirstProject.png"
+          youtubeLink="https://www.youtube.com/watch?v=Dj0y_OX5fII"
+          websiteLink="https://detectiongame.com/"
+        />
+
+        <ProjectCard
+          title="Project Green Tusk"
+          description="Developed a website using HTML, CSS, PHP, JavaScript, and SQL for user login and registration during a CSUF hackathon. The site, built in under 24 hours, allows users to study environmental lessons and donate to charities of their choice through sidebar ads."
+          link="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
+          image="/FiveProject.png"
+          githubLink="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
         />
 
         <ProjectCard
@@ -113,14 +124,6 @@ const Projects: React.FC<{}> = () => {
           link="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
           image="/EightProject.png"
           websiteLink="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
-        />
-
-        <ProjectCard
-          title="Project Green Tusk"
-          description="Developed a website using HTML, CSS, PHP, JavaScript, and SQL for user login and registration during a CSUF hackathon. The site, built in under 24 hours, allows users to study environmental lessons and donate to charities of their choice through sidebar ads."
-          link="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
-          image="/FiveProject.png"
-          githubLink="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
         />
       </motion.div>
       <motion.div
