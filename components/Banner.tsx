@@ -49,7 +49,7 @@ const Banner: React.FC<{}> = () => {
         <motion.div className="flex justify-center mt-2 md:mt-4" variants={fadeInUp}>
           <p className="text-lg md:text-2xl font-medium tracking-tighter text-gray-300 max-w-[600px]">
             I Code, Eat, Sleep, &{" "}
-            <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-blue-500 to-orange-400 mr-2">
+            <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 mr-2">
               Repeat
             </span>
           </p>
