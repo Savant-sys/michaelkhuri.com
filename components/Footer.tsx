@@ -5,22 +5,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
-const Footer: React.FC<{}> = () => {
-  useEffect(() => {
+const Footer: React.FC<{}> = () =>
+{
+  useEffect(() =>
+  {
     var Tawk_LoadStart = new Date();
-    (function () {
+    (function ()
+    {
       var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;

@@ -14,7 +14,8 @@ const fadeInUp = {
   },
 };
 
-const Skills: React.FC = () => {
+const Skills: React.FC = () =>
+{
   return (
     <motion.section
       id="skills"
@@ -57,7 +58,8 @@ const Skills: React.FC = () => {
   );
 };
 
-const SkillCard: React.FC<{ title: string; skills: string }> = ({ title, skills }) => {
+const SkillCard: React.FC<{ title: string; skills: string }> = ({ title, skills }) =>
+{
   return (
     <motion.div
       className="bg-gray-800 bg-opacity-20 rounded-lg p-4 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"
@@ -65,8 +67,8 @@ const SkillCard: React.FC<{ title: string; skills: string }> = ({ title, skills 
     >
       <h3 className="text-white font-semibold text-lg md:text-xl mb-2">{title}</h3>
       <p className="text-white text-sm md:text-[14px] py-1 px-3 rounded-lg shadow-md hover:bg-gray-600 transition">
-  {skills}
-</p>
+        {skills}
+      </p>
 
     </motion.div>
   );

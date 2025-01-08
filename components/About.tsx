@@ -2,19 +2,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
-const About: React.FC<{}> = () => {
+const About: React.FC<{}> = () =>
+{
   return (
     <motion.section
       id="about"

@@ -3,15 +3,12 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.4,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
@@ -37,7 +34,7 @@ const Education: React.FC<{}> = () =>
         EDUCATION
       </motion.h2>
       <motion.p
-      
+
         className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >

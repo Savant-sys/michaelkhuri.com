@@ -4,19 +4,17 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
-const Projects: React.FC<{}> = () => {
+const Projects: React.FC<{}> = () =>
+{
   return (
     <motion.section
       id="projects"
@@ -57,7 +55,7 @@ const Projects: React.FC<{}> = () => {
           image="/SecondProject.png"
           githubLink="https://github.com/Savant-sys/SmartTuffy"
         />
-        
+
         <ProjectCard
           title="MyClubBoard"
           description="Developed a website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
@@ -67,7 +65,7 @@ const Projects: React.FC<{}> = () => {
           websiteLink="https://myclubboard-dev.vercel.app/"
         />
 
-          <ProjectCard
+        <ProjectCard
           title="SiblingAI"
           description="Designed a website that utilized the JS similarity API to recognize similar phrases with 60% accuracy, where users can have conversations with an AI chatbot using JavaScript, CSS, and Next.js."
           link="https://github.com/Savant-sys/siblingAI"
@@ -158,7 +156,8 @@ const ProjectCard: React.FC<{
   youtubeLink?: string;
   githubLink?: string;
   websiteLink?: string;
-}> = ({ title, description, link, image, youtubeLink, githubLink, websiteLink }) => {
+}> = ({ title, description, link, image, youtubeLink, githubLink, websiteLink }) =>
+{
   return (
     <motion.div
       className="relative transform hover:scale-105 hover:z-10 transition-all duration-300 ease-in-out"

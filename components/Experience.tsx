@@ -3,15 +3,12 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.2,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 

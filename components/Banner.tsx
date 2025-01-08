@@ -4,19 +4,17 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
+export const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
-const Banner: React.FC<{}> = () => {
+const Banner: React.FC<{}> = () =>
+{
   return (
     <motion.div
       className="flex flex-col items-center justify-center px-4 md:px-20 mt-[50px] md:mt-[100px] z-[20]"

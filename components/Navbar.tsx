@@ -15,12 +15,15 @@ const fadeInDown = {
   },
 };
 
-const Navbar: React.FC<{}> = () => {
+const Navbar: React.FC<{}> = () =>
+{
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollToSection = (id: string, offset: number) => {
+  const scrollToSection = (id: string, offset: number) =>
+  {
     const element = document.querySelector(id);
-    if (element) {
+    if (element)
+    {
       window.scrollTo({
         top: element.getBoundingClientRect().top + window.pageYOffset - offset,
         behavior: "smooth",
@@ -29,7 +32,8 @@ const Navbar: React.FC<{}> = () => {
     }
   };
 
-  const scrollToTop = () => {
+  const scrollToTop = () =>
+  {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -116,7 +120,7 @@ const Navbar: React.FC<{}> = () => {
             Education
           </motion.div>
 
-          
+
 
           <motion.div
             onClick={() => window.open("mailto:michaelkhuri@gmail.com")}
@@ -166,7 +170,7 @@ const Navbar: React.FC<{}> = () => {
             >
               Technical Skills
             </motion.div>
-            
+
             <motion.div
               onClick={() => scrollToSection("#education", 100)}
               className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
@@ -176,7 +180,7 @@ const Navbar: React.FC<{}> = () => {
               Education
             </motion.div>
 
-            
+
 
             <motion.div
               onClick={() => window.open("mailto:michaelkhuri@gmail.com")}

@@ -6,13 +6,15 @@ import { Points, PointMaterial } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
-const StarBackground = (props: any) => {
+const StarBackground = (props: any) =>
+{
   const ref: any = useRef();
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
 
-  useFrame((state, delta) => {
+  useFrame((state, delta) =>
+  {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
@@ -33,11 +35,11 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas: React.FC<{}> = () => (
-  <div className="w-full h-auto fixed inset-0 pointer-events-none">
+  <div className="w-full h-auto fixed inset-0 pointer-events-none z-0"
+    style={{ zIndex: -1 }}
+  >
     <Canvas camera={{ position: [0, 0, 1] }}>
-      <Suspense fallback={null}>
-        <StarBackground />
-      </Suspense>
+      <StarBackground />
     </Canvas>
   </div>
 );
