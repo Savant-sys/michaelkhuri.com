@@ -71,7 +71,7 @@ const Footer: React.FC<{}> = () =>
       </motion.div>
 
       <motion.p className="text-gray-300 text-center text-xs md:text-sm" variants={fadeInUp}>
-        Created with 💜 using Next.js © {new Date().getFullYear()}
+        Created with 🩶 using Next.js © {new Date().getFullYear()}
       </motion.p>
     </motion.div>
   );
