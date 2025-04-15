@@ -46,12 +46,12 @@ const About: React.FC<{}> = () =>
           variants={fadeInUp}
         >
           I am an aspiring software engineer with a passion for learning and solving complex problems.
-          My goal is to become an SDE/Software Engineer, with a strong focus on AI/ML. I enjoy building
+          My goal is to become an SDE/Software Engineer, with a strong focus on Full-Stack and AI/ML. I enjoy building
           efficient and scalable solutions, always exploring new technologies to expand my skill set.
           <br />
           <br />
-          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, and R, I am eager to apply
-          my knowledge to real-world projects that create meaningful impact.
+          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, HTML, CSS, PHP, and R, I am eager 
+          to apply my knowledge to real-world projects that create meaningful impact.
         </motion.p>
       </motion.div>
     </motion.section>
