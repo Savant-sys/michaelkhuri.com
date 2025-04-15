@@ -48,11 +48,12 @@ const Skills: React.FC = () =>
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
       >
-        <SkillCard title="Languages" skills="C++, Python, C#, HTML, CSS, Java, JavaScript, TypeScript, R" />
-        <SkillCard title="Frameworks/Technologies" skills="Next.js, TailwindCSS, React, Node.js, JWT, PHP, ChatGPT API, Heroku" />
+        <SkillCard title="Languages" skills="Python, C++, C\#, JavaScript, TypeScript, Java, R, HTML, CSS, SQL, PHP" />
+        <SkillCard title="Frameworks/Technologies" skills="Next.js, TailwindCSS, React, Node.js, JWT, ChatGPT API, Heroku, Flask" />
+        <SkillCard title="IDEs" skills="Unity, Git, GitHub, Git LFS, Visual Studio, VS Code, PyCharm, GNS3, Vercel" />
         <SkillCard title="Databases" skills="SQLite, MySQL, MongoDB" />
-        <SkillCard title="IDEs" skills="Unity, Git, PyCharm, RStudio, VS Code, Visual Studio" />
-        <SkillCard title="Operating Systems" skills="Windows, Ubuntu, Kali Linux, Linux, CentOS" />
+        <SkillCard title="Libraries" skills="pandas, NumPy, Matplotlib, Chart.js, Express.js, ReportLab" />
+        <SkillCard title="Operating Systems" skills="Windows, Ubuntu, Kali Linux, CentOS, Linux" />
       </motion.div>
     </motion.section>
   );
