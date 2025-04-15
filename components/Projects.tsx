@@ -47,7 +47,17 @@ const Projects: React.FC<{}> = () =>
           hidden: { opacity: 0 },
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
-      >
+        >
+
+        <ProjectCard
+          title="Acuflow Quote Generator"
+          description="Built and deployed a full-stack quote generation system for AcuFlow, with a Python Flask API on Heroku, MySQL backend, and HTML + JavaScript + CSS frontend hosted on GoDaddy."
+          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          image="/NinethProject.png"
+          githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
+        />
+
         <ProjectCard
           title="SmartTuffy"
           description="Developed an AI-powered chatbot website in 24 hours at a CSUF hackathon that helps college students discover their class schedules and club events using JavaScript, OpenAI API, and Next.js."

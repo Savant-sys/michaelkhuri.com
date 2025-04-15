@@ -49,7 +49,77 @@ const Experience: React.FC<{}> = () =>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-2 md:gap-3">
               <Image
-                src={"/InBlueITSolutions.svg"}
+                src={"/acuflow_logo.jpg"}
+                height={30}
+                width={30}
+                alt={"experience"}
+              />
+              <p className="text-gray-300 font-semibold">AcuFlow</p>
+            </div>
+            <p className="text-gray-300">Full Stack Software Developer & Operations Analyst Intern</p>
+          </div>
+          <p className="text-gray-300 md:pt-0 pt-2">February 2025 - April 2025</p>
+        </motion.div>
+
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+        • Developed and deployed a full-stack quote generation system with a Flask API (Heroku), MySQL backend, and GoDaddy-hosted frontend to streamline quoting and automate PDF email delivery.        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+        • Created quotes for customers, followed by generating sales orders, purchase orders, and invoices using QuickBooks.
+        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+        • Helped improve business efficiency by combining technical solutions with hands-on sales operations.
+        </motion.p>
+
+        {/* Skill Tags */}
+        <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
+          <div className="flex flex-wrap gap-2">
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Full Stack Development
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Python
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Flask
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              MySQL
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              HTML
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              JavaScript
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              CSS
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              PDF Generation
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              API Development
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Heroku Deployment
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              QuickBooks Integration
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              PHP
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="flex flex-col md:flex-row md:justify-between pt-3 md:pt-5"
+          variants={fadeInUp}
+        >
+          <div className="flex flex-col items-start gap-1">
+            <div className="flex items-center gap-2 md:gap-3">
+              <Image
+                src={"/inblue_it_solutions_logo.jpg"}
                 height={30}
                 width={30}
                 alt={"experience"}
