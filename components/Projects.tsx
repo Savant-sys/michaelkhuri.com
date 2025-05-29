@@ -56,6 +56,7 @@ const Projects: React.FC<{}> = () =>
           image="/NinethProject.png"
           githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
           youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
+          websiteLink="https://www.acuflow.com/auto-pump-selector/"
         />
 
         <ProjectCard
