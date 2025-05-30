@@ -49,9 +49,47 @@ const Experience: React.FC<{}> = () =>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-2 md:gap-3">
               <Image
+                src={"/trstxcyber_logo.jpg"}
+                height={40}
+                width={40}
+                alt={"experience"}
+              />
+              <p className="text-gray-300 font-semibold">TRSTXCYBER</p>
+            </div>
+            <p className="text-gray-300">Junior Technical Sales Engineer</p>
+          </div>
+          <p className="text-gray-300 md:pt-0 pt-2">May 2025 - Present</p>
+        </motion.div>
+
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Specializing in cyber security insurance solutions and technical sales.
+        </motion.p>
+
+        {/* Skill Tags */}
+        <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
+          <div className="flex flex-wrap gap-2">
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Technical Sales
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Cyber Security
+            </div>
+            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+              Insurance Solutions
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="flex flex-col md:flex-row md:justify-between pt-3 md:pt-5"
+          variants={fadeInUp}
+        >
+          <div className="flex flex-col items-start gap-1">
+            <div className="flex items-center gap-2 md:gap-3">
+              <Image
                 src={"/acuflow_logo.jpg"}
-                height={30}
-                width={30}
+                height={40}
+                width={40}
                 alt={"experience"}
               />
               <p className="text-gray-300 font-semibold">AcuFlow</p>
@@ -120,8 +158,8 @@ const Experience: React.FC<{}> = () =>
             <div className="flex items-center gap-2 md:gap-3">
               <Image
                 src={"/inblue_it_solutions_logo.jpg"}
-                height={30}
-                width={30}
+                height={40}
+                width={40}
                 alt={"experience"}
               />
               <p className="text-gray-300 font-semibold">InBlue IT Solutions</p>

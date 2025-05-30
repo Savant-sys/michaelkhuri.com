@@ -52,7 +52,7 @@ const Education: React.FC<{}> = () =>
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
-              <Image src="/csuf_logo.svg" height={30} width={30} alt="CSUF" />
+              <Image src="/csuf_logo.svg" height={40} width={40} alt="CSUF" />
               <p className="text-gray-300 font-semibold">
                 California State University, Fullerton
               </p>
@@ -84,7 +84,7 @@ const Education: React.FC<{}> = () =>
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
-              <Image src="/saddleback_logo.svg" height={30} width={30} alt="Saddleback College" />
+              <Image src="/saddleback_logo.svg" height={40} width={40} alt="Saddleback College" />
               <p className="text-gray-300 font-semibold">Saddleback College</p>
             </div>
             <p className="text-gray-300">
