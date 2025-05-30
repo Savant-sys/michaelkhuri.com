@@ -62,7 +62,7 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Specializing in cyber security insurance solutions and technical sales.
+          • Specializing in cybersecurity insurance solutions and technical sales.
         </motion.p>
 
         {/* Skill Tags */}
