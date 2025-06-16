@@ -52,7 +52,7 @@ const About: React.FC<{}> = () =>
           <br />
           <br />
           With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, HTML, CSS, PHP, and R, I bring both 
-          technical depth and client-oriented thinking to every project. I'm eager to apply my knowledge to create practical 
+          technical depth and client-oriented thinking to every project. I&apos;m eager to apply my knowledge to create practical 
           solutions that drive real value and impact.
         </motion.p>
       </motion.div>
