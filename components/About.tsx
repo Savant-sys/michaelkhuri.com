@@ -45,7 +45,7 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I’m a Technical Sales Engineer at CyberXTRST, where I bridge the gap between technical solutions and business 
+          I&apos;m a Technical Sales Engineer at CyberXTRST, where I bridge the gap between technical solutions and business 
           needs in the cybersecurity space. I have a strong passion for solving real-world problems, especially in AI/ML 
           and full-stack development. I thrive on building efficient, scalable systems while staying curious and 
           continuously learning new technologies.
