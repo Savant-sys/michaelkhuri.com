@@ -63,7 +63,7 @@ const Banner: React.FC<{}> = () =>
 
         {/* Subtitle */}
         <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
-          Passionate about becoming a Software Engineer, with a strong interest in AI/ML and a focus on learning and building efficient solutions.
+          Technical Sales Engineer at CyberXTRST, with a passion for AI/ML, solving real-world challenges, and building efficient, scalable solutions.
         </motion.p>
 
         {/* Contact Button */}

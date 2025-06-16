@@ -45,13 +45,15 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I am an aspiring software engineer with a passion for learning and solving complex problems.
-          My goal is to become an SDE/Software Engineer, with a strong focus on Full-Stack and AI/ML. I enjoy building
-          efficient and scalable solutions, always exploring new technologies to expand my skill set.
+          I’m a Technical Sales Engineer at CyberXTRST, where I bridge the gap between technical solutions and business 
+          needs in the cybersecurity space. I have a strong passion for solving real-world problems, especially in AI/ML 
+          and full-stack development. I thrive on building efficient, scalable systems while staying curious and 
+          continuously learning new technologies.
           <br />
           <br />
-          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, HTML, CSS, PHP, and R, I am eager 
-          to apply my knowledge to real-world projects that create meaningful impact.
+          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, HTML, CSS, PHP, and R, I bring both 
+          technical depth and client-oriented thinking to every project. I'm eager to apply my knowledge to create practical 
+          solutions that drive real value and impact.
         </motion.p>
       </motion.div>
     </motion.section>
