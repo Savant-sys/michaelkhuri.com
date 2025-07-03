@@ -51,7 +51,7 @@ const About: React.FC<{}> = () =>
           <br />
           <br />
           I&apos;m passionate about applying my skills to innovative, real-world projects that drive impact across industries. Whether
-          it's building full-stack web apps, creating VR experiences in Unity, or supporting cybersecurity operations, I&apos;m always
+          it&apos;s building full-stack web apps, creating VR experiences in Unity, or supporting cybersecurity operations, I&apos;m always
           looking to grow, contribute, and solve meaningful problems.
           <br />
           <br />
