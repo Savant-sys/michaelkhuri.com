@@ -63,7 +63,7 @@ const Banner: React.FC<{}> = () =>
 
         {/* Subtitle */}
         <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
-          Technical Sales Engineer at CyberXTRST, with a passion for AI/ML, solving real-world challenges, and building efficient, scalable solutions.
+          Software Developer | AI/ML Enthusiast | Strong foundation in full-stack development, cybersecurity, and VR game design | Open to new opportunities
         </motion.p>
 
         {/* Contact Button */}

@@ -56,28 +56,44 @@ const Experience: React.FC<{}> = () =>
               />
               <p className="text-gray-300 font-semibold">TRSTXCYBER</p>
             </div>
-            <p className="text-gray-300">Junior Technical Sales Engineer</p>
+            <p className="text-gray-300">Technical Sales Engineer</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">May 2025 - Present</p>
+          <p className="text-gray-300 md:pt-0 pt-2">May 2025 - July 2025</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Specializing in cybersecurity insurance solutions and technical sales.
+          • Supported cyber insurance sales by identifying client security needs and recommending tailored coverage options using industry best practices.
         </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Researched and integrated cybersecurity tools (e.g., dark web scanners, MDR solutions) to enhance client onboarding and internal audit capabilities.
+        </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Collaborated with the sales and tech teams to streamline intake forms, improving lead qualification and closing rates.
 
+        </motion.p>
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Technical Sales
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Cyber Security
-            </div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
-              Insurance Solutions
-            </div>
-          </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    Cybersecurity Tools
+  </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    Technical Sales
+  </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    Client Needs Analysis
+  </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    Cyber Insurance
+  </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    MDR Solutions
+  </div>
+  <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">
+    Customer Onboarding
+  </div>
+</div>
+
         </motion.div>
 
         <motion.div
