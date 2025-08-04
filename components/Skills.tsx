@@ -48,7 +48,7 @@ const Skills: React.FC = () =>
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
       >
-        <SkillCard title="Languages" skills="Python, C++, C\#, JavaScript, TypeScript, Java, R, HTML, CSS, SQL, PHP" />
+        <SkillCard title="Languages" skills="Python, C++, C#, JavaScript, TypeScript, Java, R, HTML, CSS, SQL, PHP" />
         <SkillCard title="Frameworks/Technologies" skills="Next.js, TailwindCSS, React, Node.js, JWT, ChatGPT API, Heroku, Flask" />
         <SkillCard title="IDEs" skills="Unity, Git, GitHub, Git LFS, Visual Studio, VS Code, PyCharm, GNS3, Vercel" />
         <SkillCard title="Databases" skills="SQLite, MySQL, MongoDB" />
