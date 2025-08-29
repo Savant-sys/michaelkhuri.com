@@ -105,7 +105,7 @@ const Education: React.FC<{}> = () =>
           • Certificate: IGETC (Certificate of Achievement)
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean&apos;s List
+          • Dean&apos;s List - Cum Laude
         </motion.p>
       </motion.div>
     </motion.section>
