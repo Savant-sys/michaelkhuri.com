@@ -94,7 +94,7 @@ const Education: React.FC<{}> = () =>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Completed a double A.A. with a minor concentration in Computer Science
+          • Earned a double A.A. with a minor concentration in Computer Science
         </motion.p>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
