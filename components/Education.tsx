@@ -88,7 +88,7 @@ const Education: React.FC<{}> = () =>
               <p className="text-gray-300 font-semibold">Saddleback College</p>
             </div>
             <p className="text-gray-300">
-              Associate of Arts in Liberal Studies &amp; General Studies: Interdisciplinary Studies; Minor in Computer Science) 
+              Associate of Arts in Liberal Studies &amp; Interdisciplinary Studies; Minor in Computer Science
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
