@@ -88,13 +88,14 @@ const Education: React.FC<{}> = () =>
               <p className="text-gray-300 font-semibold">Saddleback College</p>
             </div>
             <p className="text-gray-300">
-              Associate of Arts in Liberal Arts and Sciences
+              Associate of Arts in Liberal Studies &amp; General Studies: Interdisciplinary Studies (Double Major, Computer Science minor) 
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Though my degree is in Liberal Arts, my primary focus was on Computer Science coursework.
+          • Double A.A. in Liberal Studies and General Studies: Interdisciplinary Studies
+            with a minor in Computer Science (primary focus on CS coursework)
         </motion.p>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
