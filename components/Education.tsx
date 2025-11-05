@@ -34,7 +34,6 @@ const Education: React.FC<{}> = () =>
         EDUCATION
       </motion.h2>
       <motion.p
-
         className="tracking-[0.2em] md:tracking-[0.5em] text-center text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >
@@ -48,8 +47,32 @@ const Education: React.FC<{}> = () =>
           visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
         }}
       >
-        {/* California State University Fullerton */}
+
+        {/* San José State University */}
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
+          <div className="flex flex-col items-start gap-1">
+            <div className="flex items-center gap-3">
+              <Image src="/sjsu_logo.svg" height={40} width={40} alt="SJSU" />
+              <p className="text-gray-300 font-semibold">
+                San José State University
+              </p>
+            </div>
+            <p className="text-gray-300">
+              Master of Science in Artificial Intelligence
+            </p>
+          </div>
+          <p className="text-gray-300 md:pt-0 pt-3">Jan 2026 — Present</p>
+        </motion.div>
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Pursuing specialization in AI for autonomous systems and robotics
+        </motion.p>
+        <motion.p className="text-gray-300 pt-2" variants={fadeInUp}>
+          • Expected Graduation: Fall 2027
+        </motion.p>
+
+
+        {/* California State University Fullerton */}
+        <motion.div className="md:flex md:flex-row md:justify-between pt-8" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
               <Image src="/csuf_logo.svg" height={40} width={40} alt="CSUF" />
@@ -67,45 +90,35 @@ const Education: React.FC<{}> = () =>
           • Activities: Association for Computing Machinery Club
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Participated in two 24-hour hackathon events at CSUF and developed the projects below:
+          • Participated in two 24-hour hackathons (SmartTuffy & Project Green Tusk)
         </motion.p>
-        <motion.p className="text-gray-300 pt-1 ml-3" variants={fadeInUp}>
-          • SmartTuffy
-        </motion.p>
-        <motion.p className="text-gray-300 pt-1 ml-3" variants={fadeInUp}>
-          • Project Green Tusk
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Dean&apos;s List — Cum Laude
         </motion.p>
 
-        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean&apos;s List - Cum Laude
-        </motion.p>
 
         {/* Saddleback College */}
-        <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
+        <motion.div className="md:flex md:flex-row md:justify-between pt-8" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
               <Image src="/saddleback_logo.svg" height={40} width={40} alt="Saddleback College" />
               <p className="text-gray-300 font-semibold">Saddleback College</p>
             </div>
             <p className="text-gray-300">
-              Associate of Arts in Liberal Studies &amp; Interdisciplinary Studies; Minor in Computer Science
+              Associate of Arts in Liberal Studies &amp; Interdisciplinary Studies (Minor in Computer Science)
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
         </motion.div>
-        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Earned a double A.A. with a minor concentration in Computer Science
-        </motion.p>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Activities: Society of Asian Scientists & Engineers Club (Director
-          of Social Media)
+          • Society of Asian Scientists & Engineers — Director of Social Media
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Certificate: IGETC (Certificate of Achievement)
+          • IGETC Certificate of Achievement
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean&apos;s List - Cum Laude
+          • Dean&apos;s List — Cum Laude
         </motion.p>
       </motion.div>
     </motion.section>

@@ -42,23 +42,36 @@ const About: React.FC<{}> = () =>
           EXPLORE NOW
         </motion.p>
         <motion.p
-          className="text-gray-300 text-center text-sm md:text-lg"
-          variants={fadeInUp}
-        >
-          I&apos;m Michael Khuri, a recent Computer Science graduate with a strong foundation in software development, Unity game
-          development, cybersecurity, and customer service. I&apos;m eager to gain hands-on experience in AI/ML, software engineering,
-          or technical development roles.
-          <br />
-          <br />
-          I&apos;m passionate about applying my skills to innovative, real-world projects that drive impact across industries. Whether
-          it&apos;s building full-stack web apps, creating VR experiences in Unity, or supporting cybersecurity operations, I&apos;m always
-          looking to grow, contribute, and solve meaningful problems.
-          <br />
-          <br />
-          With a solid foundation in Python, TypeScript, C++, C#, JavaScript, Java, HTML, CSS, PHP, and R, I bring both
-          technical depth and client-oriented thinking to every project. I&apos;m eager to apply my knowledge to create practical
-          solutions that drive real value and impact.
-        </motion.p>
+  className="text-gray-300 text-center text-sm md:text-lg"
+  variants={fadeInUp}
+>
+  I&apos;m Michael Khuri, and I am working toward becoming an
+  <strong> AI &amp; Autonomous Systems Engineer </strong>
+  while pursuing my
+  <strong> M.S. in Artificial Intelligence </strong>
+  at <strong>San José State University</strong> starting Spring 2026.
+
+  <br /><br />
+
+  I enjoy building things that help computers understand the world, especially using
+  <strong> computer vision </strong> and <strong> machine learning</strong>.
+  I like working on real-time systems where AI, simulation, and software come together.
+
+  <br /><br />
+
+  I have a strong foundation in
+  <strong> Python, C++, C#, JavaScript, and SQL</strong>. I’ve created
+  <strong> full SaaS applications</strong>, built
+  <strong> VR projects in Unity</strong>, and developed early
+  <strong> autonomous driving vision</strong> features using
+  <strong> OpenCV</strong>. I also enjoy working with tools like
+  <strong> Next.js, TailwindCSS, Flask, and PostgreSQL</strong>.
+
+  <br /><br />
+
+  I’m always learning new technologies and working on projects that help shape the future of cars, robotics, and AI.
+</motion.p>
+
       </motion.div>
     </motion.section>
   );

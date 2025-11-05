@@ -62,8 +62,8 @@ const Banner: React.FC<{}> = () =>
         </motion.div>
 
         {/* Subtitle */}
-        <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
-          Software Developer | AI/ML Enthusiast | Strong foundation in full-stack development, cybersecurity, and VR game design | Open to new opportunities
+        <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[540px]" variants={fadeInUp}>
+          AI & Autonomous Systems | M.S. AI @ SJSU (Spring 2026) | Computer Vision | Full-Stack (Next.js, Flask) | Open to Opportunities
         </motion.p>
 
         {/* Contact Button */}
