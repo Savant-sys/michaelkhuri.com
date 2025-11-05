@@ -57,7 +57,7 @@ const Experience: React.FC<{}> = () =>
               />
               <p className="text-gray-300 font-semibold">Star4ce</p>
             </div>
-            <p className="text-gray-300">Full Stack Software Engineer (Contract)</p>
+            <p className="text-gray-300">Lead Full Stack Software Engineer (Contract)</p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present · Remote (Irvine, CA)</p>
         </motion.div>
