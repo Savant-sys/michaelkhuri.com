@@ -52,7 +52,7 @@ const Education: React.FC<{}> = () =>
         <motion.div className="md:flex md:flex-row md:justify-between pt-5" variants={fadeInUp}>
           <div className="flex flex-col items-start gap-1">
             <div className="flex items-center gap-3">
-              <Image src="/sjsu_logo.svg" height={40} width={40} alt="SJSU" />
+              <Image src="/sjsu_logo.jpg" height={40} width={40} alt="SJSU" />
               <p className="text-gray-300 font-semibold">
                 San José State University
               </p>
