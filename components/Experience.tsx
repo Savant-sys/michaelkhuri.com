@@ -63,16 +63,16 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Building a full SaaS employee retention platform with Next.js, TailwindCSS, and Flask REST API.
+          • Building a full SaaS employee retention platform with <strong>Next.js, TailwindCSS, and Flask REST API.</strong>
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Implementing JWT authentication, role-based access control, and analytics dashboards.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrating PostgreSQL, AWS/Cloudinary storage, and Stripe for subscription payments.
+          • Integrating <strong>PostgreSQL, AWS/Cloudinary storage, and Stripe</strong> for subscription payments.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Researching computer vision-based analytics for automated workforce insights.
+          • Researching <strong>computer vision-based analytics</strong> for automated workforce insights.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Leading end-to-end development from UI/UX design to deployment and maintenance.
@@ -153,7 +153,7 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built and deployed a full-stack quote system with Flask API, MySQL database, and frontend integration.
+          • Built and deployed a full-stack quote system with <strong>Flask API, MySQL</strong> database, and frontend integration.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Automated PDF quote generation and email delivery to streamline sales workflows.
