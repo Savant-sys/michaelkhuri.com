@@ -59,7 +59,7 @@ const Experience: React.FC<{}> = () =>
             </div>
             <p className="text-gray-300">Lead Full Stack Software Engineer (Contract)</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present · Remote (Irvine, CA)</p>
+          <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present · Remote</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
