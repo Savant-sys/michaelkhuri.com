@@ -38,32 +38,15 @@ const Banner: React.FC<{}> = () =>
         </motion.div>
 
         <motion.div
-          className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px] animate-bounce"
+          className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px]"
           variants={fadeInUp}
         >
           Michael Khuri
         </motion.div>
 
-        <motion.div className="flex justify-center mt-2 md:mt-4" variants={fadeInUp}>
-          <p className="text-lg md:text-2xl font-medium tracking-tighter text-gray-300 max-w-[600px]">
-            I Code, Eat, Sleep, &{" "}
-            <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 mr-2">
-              Repeat
-            </span>
-          </p>
-          <Image
-            src="/catbongo.gif"
-            height={50}
-            width={50}
-            alt="repeat"
-            unoptimized
-            className="md:w-[60px] md:h-auto h-auto"
-          />
-        </motion.div>
-
         {/* Subtitle */}
         <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[540px]" variants={fadeInUp}>
-          AI & Autonomous Systems | M.S. AI @ SJSU (Spring 2026) | Computer Vision | Full-Stack (Next.js, Flask) | Open to Opportunities
+          M.S. AI @ SJSU | Computer Vision & Autonomous Systems | Building Lane Detection, Perception, & AI-Driven Apps
         </motion.p>
 
         {/* Contact Button */}

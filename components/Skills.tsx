@@ -42,18 +42,16 @@ const Skills: React.FC = () =>
       </motion.p>
 
       <motion.div
-        className="mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        className="mx-auto max-w-screen-lg px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-6"
         variants={{
           hidden: { opacity: 0 },
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
       >
-        <SkillCard title="Languages" skills="Python, C++, C#, JavaScript, TypeScript, Java, R, HTML, CSS, SQL, PHP" />
-        <SkillCard title="Frameworks/Technologies" skills="AWS (EC2, S3, RDS, IAM), Next.js, TailwindCSS, React, Node.js, JWT, ChatGPT API, Heroku, Flask"/>
-        <SkillCard title="IDEs" skills="Unity, Git, GitHub, Git LFS, Visual Studio, VS Code, PyCharm, GNS3, Vercel" />
-        <SkillCard title="Databases" skills="SQLite, MySQL, MongoDB" />
-        <SkillCard title="Libraries" skills="OpenCV, PyTorch NumPy, Matplotlib, Pandas, Chart.js, Express.js, ReportLab" />
-        <SkillCard title="Operating Systems" skills="Windows, Ubuntu, MacOS, Kali Linux, CentOS, Linux" />
+        <SkillCard title="Languages" skills="Python, C++, JavaScript, TypeScript" />
+        <SkillCard title="Machine Learning" skills="OpenCV, PyTorch, NumPy, Matplotlib" />
+        <SkillCard title="Web Development" skills="Next.js, Flask, TailwindCSS, JWT" />
+        <SkillCard title="Technology" skills="PostgreSQL, MySQL, AWS, Git, OpenAI API" />
       </motion.div>
     </motion.section>
   );
@@ -61,16 +59,24 @@ const Skills: React.FC = () =>
 
 const SkillCard: React.FC<{ title: string; skills: string }> = ({ title, skills }) =>
 {
+  const skillList = skills.split(", ");
+  
   return (
     <motion.div
       className="bg-gray-800 bg-opacity-20 rounded-lg p-4 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"
       variants={fadeInUp}
     >
-      <h3 className="text-white font-semibold text-lg md:text-xl mb-2">{title}</h3>
-      <p className="text-white text-sm md:text-[14px] py-1 px-3 rounded-lg shadow-md hover:bg-gray-600 transition">
-        {skills}
-      </p>
-
+      <h3 className="text-white font-semibold text-lg md:text-xl mb-3">{title}</h3>
+      <div className="flex flex-wrap gap-1.5 md:gap-2">
+        {skillList.map((skill, index) => (
+          <span
+            key={index}
+            className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
     </motion.div>
   );
 };

@@ -61,13 +61,10 @@ const Education: React.FC<{}> = () =>
               Master of Science in Artificial Intelligence
             </p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-3">Jan 2026 — Present</p>
+          <p className="text-gray-300 md:pt-0 pt-3">Expectd May 2028</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Pursuing specialization in AI for autonomous systems and robotics
-        </motion.p>
-        <motion.p className="text-gray-300 pt-2" variants={fadeInUp}>
-          • Expected Graduation: Fall 2027
         </motion.p>
 
 
@@ -84,7 +81,7 @@ const Education: React.FC<{}> = () =>
               Bachelor of Science in Computer Science
             </p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-3">Aug 2022 - May 2024</p>
+          <p className="text-gray-300 md:pt-0 pt-3">May 2024</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Activities: Association for Computing Machinery Club
@@ -108,7 +105,7 @@ const Education: React.FC<{}> = () =>
               Associate of Arts in Liberal Studies &amp; Interdisciplinary Studies (Minor in Computer Science)
             </p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-3">Jun 2020 - May 2022</p>
+          <p className="text-gray-300 md:pt-0 pt-3">May 2022</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>

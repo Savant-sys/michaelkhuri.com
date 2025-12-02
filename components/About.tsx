@@ -42,35 +42,29 @@ const About: React.FC<{}> = () =>
           EXPLORE NOW
         </motion.p>
         <motion.p
-  className="text-gray-300 text-center text-sm md:text-lg"
-  variants={fadeInUp}
->
-  I&apos;m Michael Khuri, and I am working toward becoming an
-  <strong> AI &amp; Autonomous Systems Engineer </strong>
-  while pursuing my
-  <strong> M.S. in Artificial Intelligence </strong>
-  at <strong>San José State University</strong> starting Spring 2026.
+          className="text-gray-300 text-center text-sm md:text-lg"
+          variants={fadeInUp}
+        >
 
-  <br /><br />
+          I’m Michael Khuri, an 
+          <strong> M.S. Artificial Intelligence</strong> student at 
+           San José State University specializing in 
+          <strong> computer vision</strong> and <strong>autonomous systems</strong>.
+          <br /><br />
 
-  I enjoy building things that help computers understand the world, especially using
-  <strong> computer vision </strong> and <strong> machine learning</strong>.
-  I like working on real-time systems where AI, simulation, and software come together.
+          I build systems for <strong>real-time perception</strong> using 
+          <strong> Python</strong>, <strong>C++</strong>, <strong>OpenCV</strong>, and 
+          I’m currently learning <strong>PyTorch</strong> for deep learning. 
+          Recent projects include an <strong>autonomous lane detection system</strong> and 
+          AI-powered applications with the <strong>OpenAI API</strong>, 
+          <strong> TypeScript</strong>, and <strong>Next.js</strong>.
+          <br /><br />
 
-  <br /><br />
+          I’m continually building new AI projects as I work toward roles in 
+          <strong> autonomous driving</strong>, <strong>robotic perception</strong>, and 
+          <strong> machine learning engineering</strong>.
 
-  I have a strong foundation in
-  <strong> Python, C++, C#, JavaScript, and SQL</strong>. I’ve created
-  <strong> full SaaS applications</strong>, built
-  <strong> VR projects in Unity</strong>, and developed early
-  <strong> autonomous driving vision</strong> features using
-  <strong> OpenCV</strong>. I also enjoy working with tools like
-  <strong> Next.js, TailwindCSS, Flask, and PostgreSQL</strong>.
-
-  <br /><br />
-
-  I’m always learning new technologies and working on projects that help shape the future of cars, robotics, and AI.
-</motion.p>
+        </motion.p>
 
       </motion.div>
     </motion.section>

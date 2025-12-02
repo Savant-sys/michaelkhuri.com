@@ -48,10 +48,20 @@ const Projects: React.FC<{}> = () =>
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
         >
+          <ProjectCard
+          title="Autonomous Lane Detection System"
+          description="Real-time lane detection system for autonomous vehicles using computer vision techniques."
+          skills={["Python", "OpenCV", "NumPy", "Computer Vision"]}
+          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          image="/TenthProject.png"
+          githubLink="https://github.com/Savant-sys/Autonomous-Lane-Detection-System"
+          youtubeLink="https://www.youtube.com/watch?v=yOJP7iISu4k"
+        />
 
         <ProjectCard
           title="Acuflow Quote Generator"
-          description="Built and deployed a full-stack quote generation system for AcuFlow, with a Python Flask API on Heroku, MySQL backend, and HTML + JavaScript + CSS frontend hosted on GoDaddy."
+          description="Full-stack web app for generating quotes with automated PDFs and email workflows."
+          skills={["Flask", "MySQL", "JavaScript", "Python"]}
           link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
           image="/NinethProject.png"
           githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
@@ -61,33 +71,26 @@ const Projects: React.FC<{}> = () =>
 
         <ProjectCard
           title="SmartTuffy"
-          description="Developed an AI-powered chatbot website in 24 hours at a CSUF hackathon that helps college students discover their class schedules and club events using JavaScript, OpenAI API, and Next.js."
+          description="AI chatbot that helps students find class schedules and campus events. Built in 24 hours for CSUF Hackathon."
+          skills={["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"]}
           link="https://github.com/Savant-sys/SmartTuffy"
           image="/SecondProject.png"
           githubLink="https://github.com/Savant-sys/SmartTuffy"
         />
 
         <ProjectCard
-          title="MyClubBoard"
-          description="Developed a website for students to manage or join clubs and organizations easily at the university using JavaScript, TypeScript, React, Prisma, MongoDB, and Next.js."
-          link="https://github.com/anhduy1202/MyClubBoard"
-          image="/ThirdProject.png"
-          githubLink="https://github.com/anhduy1202/MyClubBoard"
-          websiteLink="https://myclubboard-dev.vercel.app/"
-        />
-
-        <ProjectCard
           title="SiblingAI"
-          description="Designed a website that utilized the JS similarity API to recognize similar phrases with 60% accuracy, where users can have conversations with an AI chatbot using JavaScript, CSS, and Next.js."
+          description="Intelligent chatbot with context-aware responses and adaptive personality."
+          skills={["Next.js", "JavaScript", "Semantic Search"]}
           link="https://github.com/Savant-sys/siblingAI"
           image="/FourProject.png"
           githubLink="https://github.com/Savant-sys/siblingAI"
-          websiteLink="https://sibling-ai.vercel.app/"
         />
 
         <ProjectCard
           title="Detection"
-          description="Developed a virtual reality game in Unity using C# with a team of five. An immersive virtual reality first-person shooter where you need to scan your environment."
+          description="Immersive VR first-person shooter game with physics-based mechanics and AI enemies."
+          skills={["Unity", "C#", "VR Development"]}
           link="https://detectiongame.com/"
           image="/FirstProject.png"
           youtubeLink="https://www.youtube.com/watch?v=Dj0y_OX5fII"
@@ -95,44 +98,13 @@ const Projects: React.FC<{}> = () =>
         />
 
         <ProjectCard
-          title="Project Green Tusk"
-          description="Developed a website using HTML, CSS, PHP, JavaScript, and SQL for user login and registration during a CSUF hackathon. The site, built in under 24 hours, allows users to study environmental lessons and donate to charities of their choice through sidebar ads."
-          link="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
-          image="/FiveProject.png"
-          githubLink="https://github.com/kourosh-alasti/FULLYHACKS-2023-ENVIRONMENTALIST"
-        />
-
-        <ProjectCard
-          title="Pirate Ship Game"
-          description="Developed a JavaScript game on Code Studio where the player controls the wings using arrow keys on the keyboard."
-          link="https://studio.code.org/projects/applab/9F9zA96PI2__OC4URjdyFGyobeXOxntitbp2-RlKtBE"
-          image="/NineProject.png"
-          websiteLink="https://studio.code.org/projects/applab/9F9zA96PI2__OC4URjdyFGyobeXOxntitbp2-RlKtBE"
-        />
-
-        <ProjectCard
-          title="The Block Jumper"
-          description="Developed a mobile game using the Unity game engine and C# with a team of five. The game features a slime that jumps to achieve the highest possible score."
-          link="https://github.com/Savant-sys/The-Block-Jumper"
-          image="/SixProject.png"
-          githubLink="https://github.com/Savant-sys/The-Block-Jumper"
-          websiteLink="https://evanjholsch.itch.io/blockjumper"
-        />
-
-        <ProjectCard
-          title="Recipe Application"
-          description="Developed a recipe application in Python using TheMealDB website's database for recipe information."
-          link="https://github.com/Savant-sys/The-Recipe-Application"
-          image="/SevenProject.png"
-          githubLink="https://github.com/Savant-sys/The-Recipe-Application"
-        />
-
-        <ProjectCard
-          title="Table Tennis Game"
-          description="Developed a JavaScript game on Code Studio where two players can play using the same keyboard with arrow keys and WASD controls."
-          link="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
-          image="/EightProject.png"
-          websiteLink="https://studio.code.org/projects/applab/2JA08Nke9iuYcZUdZHtnTb27Yc67424NHQfQzAJwd4w"
+          title="MyClubBoard"
+          description="University club management platform with authentication, CRUD operations, and role-based access."
+          skills={["Next.js", "TypeScript", "MongoDB", "Prisma"]}
+          link="https://github.com/anhduy1202/MyClubBoard"
+          image="/ThirdProject.png"
+          githubLink="https://github.com/anhduy1202/MyClubBoard"
+          websiteLink="https://myclubboard-dev.vercel.app/"
         />
       </motion.div>
       <motion.div
@@ -164,10 +136,11 @@ const ProjectCard: React.FC<{
   description: string;
   link: string;
   image: string;
+  skills: string[];
   youtubeLink?: string;
   githubLink?: string;
   websiteLink?: string;
-}> = ({ title, description, link, image, youtubeLink, githubLink, websiteLink }) =>
+}> = ({ title, description, link, image, skills, youtubeLink, githubLink, websiteLink }) =>
 {
   return (
     <motion.div
@@ -187,7 +160,19 @@ const ProjectCard: React.FC<{
         />
         <div className="p-3 md:p-4">
           <h3 className="text-white font-semibold text-lg md:text-xl mb-2">{title}</h3>
-          <p className="text-gray-400 text-sm md:text-[14px]">{description}</p>
+          <p className="text-gray-400 text-sm md:text-[14px] mb-3">{description}</p>
+          
+          {/* Skills Tags */}
+          <div className="flex flex-wrap gap-1.5 md:gap-2 mb-3">
+            {skills.map((skill, index) => (
+              <span
+                key={index}
+                className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
 
           <div className="flex justify-between items-center mt-4">
             <div className="flex space-x-3 md:space-x-4">

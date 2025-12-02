@@ -63,34 +63,32 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Engineering a full SaaS employee retention platform using <strong>Next.js</strong>, <strong>TailwindCSS</strong>, and a <strong>Flask REST API</strong>.
+          • Building a full SaaS employee retention platform with Next.js, TailwindCSS, and Flask REST API.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Implementing <strong>JWT authentication</strong>, multi-role access control, analytics dashboards, and secure user management.
+          • Implementing JWT authentication, role-based access control, and analytics dashboards.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrating <strong>PostgreSQL</strong>, <strong>AWS/Cloudinary</strong> file storage, and <strong>Stripe</strong> for subscription payments.
+          • Integrating PostgreSQL, AWS/Cloudinary storage, and Stripe for subscription payments.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Researching integration of <strong>computer vision</strong>-based analytics for workforce insight automation.
+          • Researching computer vision-based analytics for automated workforce insights.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Leading end-to-end product development, including UI/UX, API design, deployment, and maintenance.
+          • Leading end-to-end development from UI/UX design to deployment and maintenance.
         </motion.p>
 
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
-          <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Full Stack Development</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Next.js</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">TailwindCSS</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Flask</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">PostgreSQL</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">JWT Auth</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Stripe</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Cloudinary / AWS</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Analytics</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Computer Vision (Exploratory)</div>
+          <div className="flex flex-wrap gap-1.5 md:gap-2">
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Next.js</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">TailwindCSS</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Flask</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">PostgreSQL</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">JWT Auth</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Stripe</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">AWS</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Computer Vision</div>
           </div>
         </motion.div>
 
@@ -115,24 +113,22 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Supported cyber insurance sales by identifying client security needs and recommending tailored coverage options using industry best practices.
+          • Identified client security needs and recommended tailored cyber insurance coverage options.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Researched and integrated cybersecurity tools (e.g., dark web scanners, MDR solutions) to enhance client onboarding and internal audit capabilities.
+          • Integrated cybersecurity tools including dark web scanners and MDR solutions for client onboarding.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Collaborated with the sales and tech teams to streamline intake forms, improving lead qualification and closing rates.
+          • Streamlined intake forms and improved lead qualification processes with sales and tech teams.
         </motion.p>
 
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
-          <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Cybersecurity Tools</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Technical Sales</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Client Needs Analysis</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Cyber Insurance</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">MDR Solutions</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Customer Onboarding</div>
+          <div className="flex flex-wrap gap-1.5 md:gap-2">
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Cybersecurity</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Technical Sales</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Client Analysis</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">MDR Solutions</div>
           </div>
         </motion.div>
 
@@ -157,30 +153,24 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Developed and deployed a full-stack quote system using a <strong>Python Flask</strong> API (Heroku) with a <strong>MySQL</strong> backend and GoDaddy-hosted frontend.
+          • Built and deployed a full-stack quote system with Flask API, MySQL database, and frontend integration.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Automated PDF quote generation and delivery via email to increase sales team productivity.
+          • Automated PDF quote generation and email delivery to streamline sales workflows.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Supported financial documentation, including sales/purchase orders and invoices using QuickBooks.
+          • Managed financial documentation including sales orders and invoices with QuickBooks integration.
         </motion.p>
 
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
-          <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Full Stack Development</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Python</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Flask</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">MySQL</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">HTML</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">JavaScript</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">CSS</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">PDF Generation</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">API Development</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Heroku Deployment</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">QuickBooks Integration</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">PHP</div>
+          <div className="flex flex-wrap gap-1.5 md:gap-2">
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Python</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Flask</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">MySQL</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">JavaScript</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Heroku</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">QuickBooks</div>
           </div>
         </motion.div>
 
@@ -208,7 +198,7 @@ const Experience: React.FC<{}> = () =>
           • Configured secure network systems including Cisco ASA firewalls, Unifi switches, and IP cameras.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Enhanced website SEO and client engagement through WordPress development.
+          • Improved website SEO and client engagement through WordPress development.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Provided technical support and account management using Microsoft Azure and remote tools.
@@ -216,15 +206,12 @@ const Experience: React.FC<{}> = () =>
 
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
-          <div className="flex flex-wrap gap-2">
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">IT</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Customer Service</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Network Configuration</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Cabling and Hardware Setup</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">IP Address Management</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Network Monitoring</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Network Security</div>
-            <div className="bg-transparent rounded-3xl text-white text-sm py-2 px-3 border border-[#2E2E2E] w-max">Remote Support</div>
+          <div className="flex flex-wrap gap-1.5 md:gap-2">
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Network Configuration</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Cisco ASA</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">WordPress</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Azure</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">IT Support</div>
           </div>
         </motion.div>
       </div>
