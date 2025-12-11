@@ -116,7 +116,7 @@ const Experience: React.FC<{}> = () =>
           • Identified client security needs and recommended tailored cyber insurance coverage options.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrated cybersecurity tools including dark web scanners and MDR solutions for client onboarding.
+          • Integrated cybersecurity tools, including dark web scanners and MDR solutions for client onboarding.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Streamlined intake forms and improved lead qualification processes with sales and tech teams.
@@ -195,7 +195,7 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Configured secure network systems including Cisco ASA firewalls, Unifi switches, and IP cameras.
+          • Configured secure network systems, including Cisco ASA firewalls, Unifi switches, and IP cameras.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
           • Improved website SEO and client engagement through WordPress development.
