@@ -55,7 +55,7 @@ const Experience: React.FC<{}> = () =>
                 width={40}
                 alt={"Star4ce logo"}
               />
-              <p className="text-gray-300 font-semibold">Star4ce - Contract</p>
+              <p className="text-gray-300 font-semibold">Star4ce (Contract)</p>
             </div>
             <p className="text-gray-300">Lead Full-Stack Software Engineer (Founding Engineer)</p>
           </div>
@@ -145,9 +145,9 @@ const Experience: React.FC<{}> = () =>
                 width={40}
                 alt={"AcuFlow logo"}
               />
-              <p className="text-gray-300 font-semibold">AcuFlow</p>
+              <p className="text-gray-300 font-semibold">AcuFlow (Contract)</p>
             </div>
-            <p className="text-gray-300">Full Stack Software Developer &amp; Operations Analyst Intern</p>
+            <p className="text-gray-300">Lead Full-Stack Software Engineer &amp; Operations Analyst</p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-2">February 2025 - April 2025</p>
         </motion.div>
@@ -159,7 +159,7 @@ const Experience: React.FC<{}> = () =>
           • Automated PDF quote generation and email delivery to streamline sales workflows.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Managed financial documentation including sales orders and invoices with QuickBooks integration.
+          • Managed financial documentation, including sales orders and invoices with QuickBooks integration.
         </motion.p>
 
         {/* Skill Tags */}
