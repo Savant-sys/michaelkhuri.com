@@ -55,9 +55,9 @@ const Experience: React.FC<{}> = () =>
                 width={40}
                 alt={"Star4ce logo"}
               />
-              <p className="text-gray-300 font-semibold">Star4ce</p>
+              <p className="text-gray-300 font-semibold">Star4ce - Contract</p>
             </div>
-            <p className="text-gray-300">Lead Full Stack Software Engineer (Contract)</p>
+            <p className="text-gray-300">Lead Full-Stack Software Engineer (Founding Engineer)</p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present</p>
         </motion.div>
