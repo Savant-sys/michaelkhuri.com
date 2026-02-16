@@ -49,6 +49,16 @@ const Projects: React.FC<{}> = () =>
         }}
         >
           <ProjectCard
+          title="EcoRoad AI"
+          description="Dashcam video analysis with computer vision (YOLO + PyTorch) for eco score, CO₂ impact, risk level, and driving tips. No car sensors or GPS. Built at SF Hacks 2026 in ~12 hours."
+          skills={["Python", "Flask", "PyTorch", "YOLO", "OpenCV"]}
+          link="https://lnkd.in/gYnWTHXu"
+          image="/ThirdProject.png"
+          githubLink="https://lnkd.in/gYnWTHXu"
+          youtubeLink="https://youtu.be/i7L7Th8KhuA"
+        />
+
+        <ProjectCard
           title="Autonomous Lane Detection System"
           description="Real-time lane detection system for autonomous vehicles using computer vision techniques."
           skills={["Python", "OpenCV", "NumPy", "Computer Vision"]}
@@ -56,6 +66,15 @@ const Projects: React.FC<{}> = () =>
           image="/TenthProject.png"
           githubLink="https://github.com/Savant-sys/Autonomous-Lane-Detection-System"
           youtubeLink="https://www.youtube.com/watch?v=yOJP7iISu4k"
+        />
+
+        <ProjectCard
+          title="SmartTuffy"
+          description="AI chatbot that helps students find class schedules and campus events. Built in 24 hours for CSUF Hackathon."
+          skills={["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"]}
+          link="https://github.com/Savant-sys/SmartTuffy"
+          image="/SecondProject.png"
+          githubLink="https://github.com/Savant-sys/SmartTuffy"
         />
 
         <ProjectCard
@@ -70,24 +89,6 @@ const Projects: React.FC<{}> = () =>
         />
 
         <ProjectCard
-          title="SmartTuffy"
-          description="AI chatbot that helps students find class schedules and campus events. Built in 24 hours for CSUF Hackathon."
-          skills={["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"]}
-          link="https://github.com/Savant-sys/SmartTuffy"
-          image="/SecondProject.png"
-          githubLink="https://github.com/Savant-sys/SmartTuffy"
-        />
-
-        <ProjectCard
-          title="SiblingAI"
-          description="Intelligent chatbot with context-aware responses and adaptive personality."
-          skills={["Next.js", "JavaScript", "Semantic Search"]}
-          link="https://github.com/Savant-sys/siblingAI"
-          image="/FourProject.png"
-          githubLink="https://github.com/Savant-sys/siblingAI"
-        />
-
-        <ProjectCard
           title="Detection"
           description="Immersive VR first-person shooter game with physics-based mechanics and AI enemies."
           skills={["Unity", "C#", "VR Development"]}
@@ -98,13 +99,12 @@ const Projects: React.FC<{}> = () =>
         />
 
         <ProjectCard
-          title="MyClubBoard"
-          description="University club management platform with authentication, CRUD operations, and role-based access."
-          skills={["Next.js", "TypeScript", "MongoDB", "Prisma"]}
-          link="https://github.com/anhduy1202/MyClubBoard"
-          image="/ThirdProject.png"
-          githubLink="https://github.com/anhduy1202/MyClubBoard"
-          websiteLink="https://myclubboard-dev.vercel.app/"
+          title="SiblingAI"
+          description="Intelligent chatbot with context-aware responses and adaptive personality."
+          skills={["Next.js", "JavaScript", "Semantic Search"]}
+          link="https://github.com/Savant-sys/siblingAI"
+          image="/FourProject.png"
+          githubLink="https://github.com/Savant-sys/siblingAI"
         />
       </motion.div>
       <motion.div
