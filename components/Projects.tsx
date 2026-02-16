@@ -54,7 +54,7 @@ const Projects: React.FC<{}> = () =>
           skills={["Python", "Flask", "PyTorch", "YOLO", "OpenCV"]}
           link="https://lnkd.in/gYnWTHXu"
           image="/ThirdProject.png"
-          githubLink="https://lnkd.in/gYnWTHXu"
+          githubLink="https://github.com/Savant-sys/ecoRoadAI"
           youtubeLink="https://youtu.be/i7L7Th8KhuA"
         />
 
