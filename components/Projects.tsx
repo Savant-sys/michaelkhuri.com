@@ -61,7 +61,7 @@ const Projects: React.FC<{}> = () =>
         <ProjectCard
           title="Autonomous Lane Detection System"
           description="Real-time lane detection system for autonomous vehicles using computer vision techniques."
-          skills={["Python", "OpenCV", "NumPy", "Computer Vision"]}
+          skills={["Python", "OpenCV", "NumPy"]}
           link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
           image="/TenthProject.png"
           githubLink="https://github.com/Savant-sys/Autonomous-Lane-Detection-System"
