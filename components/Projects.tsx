@@ -75,6 +75,8 @@ const Projects: React.FC<{}> = () =>
           link="https://github.com/Savant-sys/neuron-book"
           image="/neuronbook.jpeg"
           githubLink="https://github.com/Savant-sys/neuron-book"
+          youtubeLink="https://www.youtube.com/watch?v=SNowMQ69PAc"
+          websiteLink="https://neuron-book-6198.d.kiloapps.io/"
         />
         
         <ProjectCard
