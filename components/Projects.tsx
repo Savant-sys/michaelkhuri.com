@@ -69,23 +69,21 @@ const Projects: React.FC<{}> = () =>
         />
 
         <ProjectCard
+          title="NeuronBook"
+          description="Active-reading app with PDF viewer, Socratic question generation (Gemini/You.com), and Sanity-backed library. Embeddings and question flow with Foxit/react-pdf."
+          skills={["Next.js", "Sanity", "Flask", "React PDF", "TailwindCSS"]}
+          link="https://github.com/Savant-sys/neuron-book"
+          image="/neuronbook.jpeg"
+          githubLink="https://github.com/Savant-sys/neuron-book"
+        />
+        
+        <ProjectCard
           title="SmartTuffy"
           description="AI chatbot that helps students find class schedules and campus events. Built in 24 hours for CSUF Hackathon."
           skills={["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"]}
           link="https://github.com/Savant-sys/SmartTuffy"
           image="/SecondProject.png"
           githubLink="https://github.com/Savant-sys/SmartTuffy"
-        />
-
-        <ProjectCard
-          title="Acuflow Quote Generator"
-          description="Full-stack web app for generating quotes with automated PDFs and email workflows."
-          skills={["Flask", "MySQL", "JavaScript", "Python"]}
-          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
-          image="/NinethProject.png"
-          githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
-          youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
-          websiteLink="https://www.acuflow.com/auto-pump-selector/"
         />
 
         <ProjectCard
@@ -98,13 +96,15 @@ const Projects: React.FC<{}> = () =>
           websiteLink="https://detectiongame.com/"
         />
 
-        <ProjectCard
-          title="SiblingAI"
-          description="Intelligent chatbot with context-aware responses and adaptive personality."
-          skills={["Next.js", "JavaScript", "Semantic Search"]}
-          link="https://github.com/Savant-sys/siblingAI"
-          image="/FourProject.png"
-          githubLink="https://github.com/Savant-sys/siblingAI"
+          <ProjectCard
+          title="Acuflow Quote Generator"
+          description="Full-stack web app for generating quotes with automated PDFs and email workflows."
+          skills={["Flask", "MySQL", "JavaScript", "Python"]}
+          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          image="/NinethProject.png"
+          githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
+          websiteLink="https://www.acuflow.com/auto-pump-selector/"
         />
       </motion.div>
       <motion.div
