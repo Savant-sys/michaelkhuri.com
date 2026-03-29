@@ -74,7 +74,7 @@ const Projects: React.FC<{}> = () =>
           skills={["Next.js", "Sanity", "Flask", "React PDF", "TailwindCSS"]}
           link="https://github.com/Savant-sys/neuron-book"
           image="/neuronbook.jpeg"
-          githubLink="https://github.com/Savant-sys/neuron-book"
+          githubLink="https://github.com/NeuronBookAI/Neuron-Book"
           youtubeLink="https://www.youtube.com/watch?v=SNowMQ69PAc"
           websiteLink="https://neuron-book-6198.d.kiloapps.io/"
         />
