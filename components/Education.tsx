@@ -64,7 +64,7 @@ const Education: React.FC<{}> = () =>
           <p className="text-gray-300 md:pt-0 pt-3">Expected May 2028</p>
         </motion.div>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Pursuing specialization in AI for autonomous systems and robotics
+          • Autonomous Systems Specialization
         </motion.p>
 
 

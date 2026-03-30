@@ -49,9 +49,16 @@ const Skills: React.FC = () =>
         }}
       >
         <SkillCard title="Languages" skills="Python, C++, JavaScript, TypeScript" />
-        <SkillCard title="Machine Learning" skills="OpenCV, PyTorch, NumPy, Matplotlib" />
-        <SkillCard title="Web Development" skills="Next.js, Flask, TailwindCSS, JWT" />
-        <SkillCard title="Technology" skills="PostgreSQL, MySQL, AWS, Git, OpenAI API" />
+
+        <SkillCard title="Frameworks" skills="Next.js, React, Node.js, Express.js, Flask, TailwindCSS" />
+
+        <SkillCard title="Databases" skills="PostgreSQL, MySQL, MongoDB" />
+
+        <SkillCard title="Machine Learning" skills="PyTorch, OpenCV, NumPy, YOLO (Ultralytics), CUDA" />
+
+        <SkillCard title="Cloud & Tools" skills="AWS, Docker, Linux, Git" />
+
+        <SkillCard title="Concepts" skills="Data Structures & Algorithms, System Design, REST APIs, CI/CD" />
       </motion.div>
     </motion.section>
   );
