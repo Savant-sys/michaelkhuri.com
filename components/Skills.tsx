@@ -52,7 +52,7 @@ const Skills: React.FC = () =>
 
         <SkillCard title="Frameworks" skills="Next.js, React, Node.js, Express.js, Flask, TailwindCSS" />
 
-        <SkillCard title="Databases" skills="PostgreSQL, MySQL, MongoDB" />
+        <SkillCard title="Databases" skills="PostgreSQL, MySQL, MongoDB, SQLite" />
 
         <SkillCard title="Machine Learning" skills="PyTorch, OpenCV, NumPy, YOLO (Ultralytics), CUDA" />
 
