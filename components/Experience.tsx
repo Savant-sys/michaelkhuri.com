@@ -63,19 +63,27 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Building a full SaaS employee retention platform with <strong>Next.js, TailwindCSS, and Flask REST API.</strong>
+          • Building a multi-tenant SaaS platform using <strong>Next.js (TypeScript), Flask, and PostgreSQL</strong> for analytics and reporting.
         </motion.p>
+
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Implementing JWT authentication, role-based access control, and analytics dashboards.
+          • Developing <strong>RESTful APIs</strong> with <strong>JWT authentication</strong>, <strong>RBAC</strong>, and <strong>Stripe</strong> subscriptions.
         </motion.p>
+
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrating <strong>PostgreSQL, AWS/Cloudinary storage, and Stripe</strong> for subscription payments.
+          • Managing <strong>PostgreSQL schema</strong> and database migrations to support evolving application features.
         </motion.p>
+
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Researching <strong>computer vision-based analytics</strong> for automated workforce insights.
+          • Deploying and managing <strong>dev/prod environments</strong> on <strong>Railway</strong> with services, PostgreSQL, volumes, and custom domains.
         </motion.p>
+
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Leading end-to-end development from UI/UX design to deployment and maintenance.
+          • Configuring <strong>Cloudflare DNS</strong> and domain routing to connect domains to Railway-hosted services.
+        </motion.p>
+
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Collaborating with founders to define product requirements, data models, and system architecture.
         </motion.p>
 
         {/* Skill Tags */}
@@ -87,7 +95,6 @@ const Experience: React.FC<{}> = () =>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">PostgreSQL</div>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">JWT Auth</div>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Stripe</div>
-            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">AWS</div>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Computer Vision</div>
           </div>
         </motion.div>

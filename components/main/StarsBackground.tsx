@@ -1,20 +1,42 @@
 "use client";
 
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
-// @ts-ignore
-import * as random from "maath/random/dist/maath-random.esm";
 
-const StarBackground = (props: any) =>
+const STAR_COUNT = 5000;
+const SPHERE_RADIUS = 1.2;
+
+/** Uniform random points in a ball; avoids maath inSphere's mag===0 → NaN. */
+function fillSphereBuffer(buffer: Float32Array, radius: number) {
+  const TAU = Math.PI * 2;
+  for (let i = 0; i < buffer.length; i += 3) {
+    const u = Math.random();
+    const v = Math.random();
+    const theta = Math.acos(2 * v - 1);
+    const phi = TAU * u;
+    const sinT = Math.sin(theta);
+    const dx = sinT * Math.cos(phi);
+    const dy = sinT * Math.sin(phi);
+    const dz = Math.cos(theta);
+    const r = radius * Math.cbrt(Math.random());
+    buffer[i] = dx * r;
+    buffer[i + 1] = dy * r;
+    buffer[i + 2] = dz * r;
+  }
+  return buffer;
+}
+
+const StarBackground = (props: Record<string, unknown>) =>
 {
-  const ref: any = useRef();
+  const ref = useRef<React.ElementRef<typeof Points>>(null);
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
+    fillSphereBuffer(new Float32Array(STAR_COUNT * 3), SPHERE_RADIUS)
   );
 
-  useFrame((state, delta) =>
+  useFrame((_, delta) =>
   {
+    if (!ref.current) return;
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
@@ -27,7 +49,7 @@ const StarBackground = (props: any) =>
           color="#fff"
           size={0.002}
           sizeAttenuation={true}
-          dethWrite={false}
+          depthWrite={false}
         />
       </Points>
     </group>

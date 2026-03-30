@@ -45,25 +45,29 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-
-          I’m Michael Khuri, an 
-          <strong> M.S. Artificial Intelligence</strong> student at 
-           San José State University specializing in 
-          <strong> computer vision</strong> and <strong>autonomous systems</strong>.
+          I’m Michael Khuri, an
+          <strong> M.S. Artificial Intelligence</strong> student at
+          San José State University specializing in
+          <strong>autonomous systems</strong>.
           <br /><br />
 
-          I build systems for <strong>real-time perception</strong> using 
-          <strong> Python</strong>, <strong>C++</strong>, <strong>OpenCV</strong>, and 
-          I’m currently learning <strong>PyTorch</strong> for deep learning. 
-          Recent projects include an <strong>autonomous lane detection system</strong> and 
-          AI-powered applications with the <strong>OpenAI API</strong>, 
-          <strong> TypeScript</strong>, and <strong>Next.js</strong>.
+          I build <strong>full-stack and AI-driven systems</strong>, including scalable SaaS platforms,
+          REST APIs, and real-time computer vision pipelines using
+          <strong> Python</strong>, <strong>Flask</strong>, <strong>Next.js</strong>,
+          <strong> TypeScript</strong>, and <strong>PostgreSQL</strong>.
           <br /><br />
 
-          I’m continually building new AI projects as I work toward roles in 
-          <strong> autonomous driving</strong>, <strong>robotic perception</strong>, and 
-          <strong> machine learning engineering</strong>.
+          My recent work includes developing
+          <strong> multi-tenant SaaS applications</strong>,
+          <strong> AI-powered learning platforms</strong>, and
+          <strong> computer vision systems</strong> using
+          <strong> PyTorch</strong>, <strong>OpenCV</strong>, and <strong>YOLO</strong>.
+          <br /><br />
 
+          I’m focused on building production-level systems and working toward roles in
+          <strong> software engineering</strong>,
+          <strong> AI/ML engineering</strong>, and
+          <strong> autonomous systems</strong>.
         </motion.p>
 
       </motion.div>

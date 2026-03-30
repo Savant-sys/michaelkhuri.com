@@ -50,7 +50,8 @@ const Projects: React.FC<{}> = () =>
         >
           <ProjectCard
           title="EcoRoad AI"
-          description="Dashcam video analysis with computer vision (YOLO + PyTorch) for eco score, CO₂ impact, risk level, and driving tips. No car sensors or GPS. Built at SF Hacks 2026 in ~12 hours."
+          description="Developed a YOLO-based computer vision pipeline for real-time dashcam 
+          analysis, generating eco scores and driving risk insights using PyTorch and OpenCV."
           skills={["Python", "Flask", "PyTorch", "YOLO", "OpenCV"]}
           link="https://lnkd.in/gYnWTHXu"
           image="/ThirdProject.png"
@@ -70,7 +71,9 @@ const Projects: React.FC<{}> = () =>
 
         <ProjectCard
           title="NeuronBook"
-          description="Active-reading app with PDF viewer, Socratic question generation (Gemini/You.com), and Sanity-backed library. Embeddings and question flow with Foxit/react-pdf."
+          description="Built a full-stack AI learning platform with Next.js, 
+          Flask, and Sanity, featuring PDF reading, Socratic Q&A, and knowledge 
+          graph visualization. Deployed on Vercel (frontend) and Railway (backend)."
           skills={["Next.js", "Sanity", "Flask", "React PDF", "TailwindCSS"]}
           link="https://github.com/Savant-sys/neuron-book"
           image="/neuronbook.jpeg"
