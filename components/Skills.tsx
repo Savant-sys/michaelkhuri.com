@@ -56,9 +56,9 @@ const Skills: React.FC = () =>
 
         <SkillCard title="Machine Learning" skills="PyTorch, OpenCV, NumPy, YOLO (Ultralytics), CUDA" />
 
-        <SkillCard title="Cloud & Tools" skills="AWS, Docker, Linux, Git" />
+        <SkillCard title="Cloud & Tools" skills="AWS, Docker, Linux, Git, GitHub" />
 
-        <SkillCard title="Concepts" skills="Data Structures & Algorithms, System Design, REST APIs, CI/CD" />
+        <SkillCard title="Concepts" skills="Data Structures & Algorithms, System Design, REST APIs, OOP, CI/CD" />
       </motion.div>
     </motion.section>
   );
