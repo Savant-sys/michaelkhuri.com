@@ -48,7 +48,7 @@ const About: React.FC<{}> = () =>
           I’m Michael Khuri, an
           <strong> M.S. Artificial Intelligence</strong> student at
           San José State University specializing in
-          <strong>autonomous systems</strong>.
+          <strong> autonomous systems</strong>.
           <br /><br />
 
           I build <strong>full-stack and AI-driven systems</strong>, including scalable SaaS platforms,
