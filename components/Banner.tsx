@@ -46,7 +46,7 @@ const Banner: React.FC<{}> = () =>
 
         {/* Subtitle */}
         <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[540px]" variants={fadeInUp}>
-          M.S. AI @ SJSU | Computer Vision & Autonomous Systems | Building Lane Detection, Perception, & AI-Driven Apps
+        M.S. AI @ SJSU | Software Engineer | AI/ML, Computer Vision, Autonomous Systems
         </motion.p>
 
         {/* Contact Button */}
