@@ -160,14 +160,18 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built and deployed a full-stack quote system with <strong>Flask API, MySQL</strong> database, and frontend integration.
+          • Built a Flask-based quoting system automating PDFs, emails, and pricing, reducing turnaround time by <strong>40%</strong>.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Automated PDF quote generation and email delivery to streamline sales workflows.
+          • Integrated <strong>MySQL</strong> with <strong>RESTful APIs</strong> to eliminate manual data entry and improve workflow efficiency.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Managed financial documentation, including sales orders and invoices with QuickBooks integration.
+          • Deployed backend services on <strong>Heroku</strong> and integrated with a <strong>GoDaddy-hosted frontend</strong>.
         </motion.p>
+        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
+          • Built a responsive <strong>HTML/CSS/JavaScript frontend</strong> connected to backend APIs for production use.
+        </motion.p>
+        
 
         {/* Skill Tags */}
         <motion.div className="mt-4 md:mt-5" variants={fadeInUp}>
