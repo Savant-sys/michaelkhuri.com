@@ -54,7 +54,7 @@ const Skills: React.FC = () =>
 
         <SkillCard title="Databases" skills="PostgreSQL, MySQL, MongoDB, SQLite" />
 
-        <SkillCard title="Machine Learning" skills="PyTorch, TensorFlow, OpenCV, NumPy, YOLO (Ultralytics), CUDA" />
+        <SkillCard title="Machine Learning" skills="PyTorch, TensorFlow, OpenCV, NumPy, Matplotlib, YOLO (Ultralytics), CUDA" />
 
         <SkillCard title="Cloud & Tools" skills="AWS, Docker, Linux, Git, GitHub, OpenAI API" />
 
