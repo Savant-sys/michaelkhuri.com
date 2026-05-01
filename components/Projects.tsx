@@ -48,15 +48,15 @@ const Projects: React.FC<{}> = () =>
           visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
         >
-          <ProjectCard
-          title="EcoRoad AI"
-          description="Developed a YOLO-based computer vision pipeline for real-time dashcam 
-          analysis, generating eco scores and driving risk insights using PyTorch and OpenCV."
-          skills={["Python", "Flask", "PyTorch", "YOLO", "OpenCV"]}
-          link="https://lnkd.in/gYnWTHXu"
-          image="/ThirdProject.png"
-          githubLink="https://github.com/Savant-sys/ecoRoadAI"
-          youtubeLink="https://youtu.be/i7L7Th8KhuA"
+        <ProjectCard
+          title="RoadAware"
+          description="Built a road-scene object detection system using BDD100K dashcam images. Fine-tuned and compared YOLOv8m and Faster R-CNN for traffic object detection across 8 classes, with evaluation using mAP, F1, per-class AP, confusion matrices, and FPS."
+          skills={["Python", "PyTorch", "TorchVision", "YOLOv8", "OpenCV"]}
+          link="https://huggingface.co/spaces/AadMa/bdd-object-detection"
+          image="/roadawared.png"
+          githubLink="https://github.com/amarahatta/Object-Detection/tree/main"
+          youtubeLink="https://youtu.be/CNPKmXZdYqc"
+          websiteLink="https://huggingface.co/spaces/AadMa/bdd-object-detection"
         />
 
         <ProjectCard
