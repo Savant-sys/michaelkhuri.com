@@ -59,7 +59,7 @@ const Projects: React.FC<{}> = () =>
           websiteLink="https://huggingface.co/spaces/AadMa/bdd-object-detection"
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           title="Autonomous Lane Detection System"
           description="Real-time lane detection system for autonomous vehicles using computer vision techniques."
           skills={["Python", "OpenCV", "NumPy"]}
@@ -67,14 +67,22 @@ const Projects: React.FC<{}> = () =>
           image="/TenthProject.png"
           githubLink="https://github.com/Savant-sys/Autonomous-Lane-Detection-System"
           youtubeLink="https://www.youtube.com/watch?v=yOJP7iISu4k"
+        /> */}
+
+        <ProjectCard
+          title="Gap Reconstruction for Autonomous Vision"
+          description="Built a multi-camera perception pipeline using Waymo camera images to stitch panoramic scenes, simulate missing field-of-view gaps, 
+          reconstruct them with LaMa, and evaluate YOLO detection recovery."
+          skills={["Python", "OpenCV", "PyTorch", "LaMa", "YOLO"]}
+          image="/gap-reconstruction.png"
+          link="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision" 
+          githubLink="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision"
         />
 
         <ProjectCard
           title="NeuronBook"
-          description="Built a full-stack AI learning platform with Next.js, 
-          Flask, and Sanity, featuring PDF reading, Socratic Q&A, and knowledge 
-          graph visualization. Deployed on Vercel (frontend) and Railway (backend)."
-          skills={["Next.js", "Sanity", "Flask", "React PDF", "TailwindCSS"]}
+          description="Built a full-stack AI learning platform with Next.js, Flask, and Sanity, featuring PDF reading, Socratic Q&A, and knowledge graph visualization. Deployed on Vercel and Railway."
+          skills={["Next.js", "Sanity", "Flask", "React PDF", "Tailwind CSS"]}
           link="https://github.com/Savant-sys/neuron-book"
           image="/neuronbook.jpeg"
           githubLink="https://github.com/NeuronBookAI/Neuron-Book"
