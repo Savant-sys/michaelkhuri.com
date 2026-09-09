@@ -60,7 +60,7 @@ const About: React.FC<{}> = () =>
           <strong> Waymo</strong> camera images (<strong>PyTorch</strong>, <strong>OpenCV</strong>).
           <br /><br />
 
-          Based in San Jose / Orange County. Open to full-time software engineering roles.
+          Open to full-time software engineering roles.
         </motion.p>
 
       </motion.div>
