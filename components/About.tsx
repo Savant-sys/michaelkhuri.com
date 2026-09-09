@@ -45,29 +45,22 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I’m Michael Khuri, an
+          I&apos;m Michael Khuri, an
           <strong> M.S. Artificial Intelligence</strong> student at
-          San José State University specializing in
-          <strong> autonomous systems</strong>.
+          San José State University (autonomous systems).
           <br /><br />
 
-          I build <strong>full-stack and AI-driven systems</strong>, including scalable SaaS platforms,
-          REST APIs, and real-time computer vision pipelines using
-          <strong> Python</strong>, <strong>Flask</strong>, <strong>Next.js</strong>,
-          <strong> TypeScript</strong>, and <strong>PostgreSQL</strong>.
+          I shipped <strong>Star4ce</strong>, a multi-tenant dealer retention platform
+          (<strong>Next.js</strong>, <strong>Flask</strong>, <strong>PostgreSQL</strong>),
+          and a live pump-quoting tool still used on acuflow.com.
           <br /><br />
 
-          My recent work includes developing
-          <strong> multi-tenant SaaS applications</strong>,
-          <strong> AI-powered learning platforms</strong>, and
-          <strong> computer vision systems</strong> using
-          <strong> PyTorch</strong>, <strong>OpenCV</strong>, and <strong>YOLO</strong>.
+          Coursework and projects: road-scene detection on <strong>BDD100K</strong> /
+          <strong> YOLOv8</strong>, and panoramic gap reconstruction on
+          <strong> Waymo</strong> camera images (<strong>PyTorch</strong>, <strong>OpenCV</strong>).
           <br /><br />
 
-          I’m focused on building production-level systems and working toward roles in
-          <strong> software engineering</strong>,
-          <strong> AI/ML engineering</strong>, and
-          <strong> autonomous systems</strong>.
+          Based in San Jose / Orange County. Open to full-time software engineering roles.
         </motion.p>
 
       </motion.div>

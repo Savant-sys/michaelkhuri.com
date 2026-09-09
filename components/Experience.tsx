@@ -55,35 +55,27 @@ const Experience: React.FC<{}> = () =>
                 width={40}
                 alt={"Star4ce logo"}
               />
-              <p className="text-gray-300 font-semibold">Star4ce (Contract)</p>
+              <p className="text-gray-300 font-semibold">Star4ce</p>
             </div>
-            <p className="text-gray-300">Lead Full-Stack Software Engineer (Founding Engineer)</p>
+            <p className="text-gray-300">Founding Full-Stack Engineer</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present</p>
+          <p className="text-gray-300 md:pt-0 pt-2">Oct 2025 - Present · Irvine, CA (Hybrid)</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Building a multi-tenant SaaS platform using <strong>Next.js (TypeScript), Flask, and PostgreSQL</strong> for analytics and reporting.
+          • Shipped Star4ce, a multi-tenant dealer retention platform (<strong>Next.js/TypeScript, Flask, PostgreSQL</strong>): 44 tables for employees, surveys, ATS, turnover, and billing, with store-level isolation and corporate portfolio access.
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Developing <strong>RESTful APIs</strong> with <strong>JWT authentication</strong>, <strong>RBAC</strong>, and <strong>Stripe</strong> subscriptions.
+          • Built 250+ REST endpoints across 26 Flask blueprints with JWT + a 5-role / 50+ permission RBAC matrix (per-user overrides) so one store cannot read another&apos;s employees, surveys, or Stripe billing.
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Managing <strong>PostgreSQL schema</strong> and database migrations to support evolving application features.
+          • Modeled hiring, 90-day success plans, survey scoring, interview scorecards, and subscription state in Postgres and evolved the live schema with idempotent migrations across Railway dev/prod.
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Deploying and managing <strong>dev/prod environments</strong> on <strong>Railway</strong> with services, PostgreSQL, volumes, and custom domains.
-        </motion.p>
-
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Configuring <strong>Cloudflare DNS</strong> and domain routing to connect domains to Railway-hosted services.
-        </motion.p>
-
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Collaborating with founders to define product requirements, data models, and system architecture.
+          • Built the dealer hub (90+ Next.js routes) for 90-day check-ins, survey dispatch, scorecards, turnover analytics, and LLM-backed candidate / command-center reports, backed by 80+ pytest files (400+ tests).
         </motion.p>
 
         {/* Skill Tags */}
@@ -95,7 +87,7 @@ const Experience: React.FC<{}> = () =>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">PostgreSQL</div>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">JWT Auth</div>
             <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Stripe</div>
-            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Computer Vision</div>
+            <div className="px-2 py-1 text-xs md:text-sm bg-blue-500/20 text-blue-300 rounded-md border border-blue-500/30">Railway</div>
           </div>
         </motion.div>
 
@@ -120,13 +112,7 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Identified client security needs and recommended tailored cyber insurance coverage options.
-        </motion.p>
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrated cybersecurity tools, including dark web scanners and MDR solutions for client onboarding.
-        </motion.p>
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Streamlined intake forms and improved lead qualification processes with sales and tech teams.
+          • Integrated client onboarding tools (MDR, dark-web scan) and tightened intake so sales could qualify leads without a custom engineering build.
         </motion.p>
 
         {/* Skill Tags */}
@@ -152,24 +138,21 @@ const Experience: React.FC<{}> = () =>
                 width={40}
                 alt={"AcuFlow logo"}
               />
-              <p className="text-gray-300 font-semibold">AcuFlow (Contract)</p>
+              <p className="text-gray-300 font-semibold">AcuFlow (Precision Flow Technologies)</p>
             </div>
-            <p className="text-gray-300">Lead Full-Stack Software Engineer &amp; Operations Analyst</p>
+            <p className="text-gray-300">Software Engineer Intern — pump quoting</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">February 2025 - April 2025</p>
+          <p className="text-gray-300 md:pt-0 pt-2">February 2025 - April 2025 · Irvine, CA</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built a Flask-based quoting system automating PDFs, emails, and pricing, reducing turnaround time by <strong>40%</strong>.
+          • After a month of quoting, invoices, and purchases in <strong>QuickBooks</strong>, replaced spreadsheet quoting with a live selector on acuflow.com: sales enter ~30 flow/pressure/material/accessory fields; Flask matches a MySQL pump catalog (~50 spec columns) using manufacturer rules and picks the closest model at ≤2× requested flow.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Integrated <strong>MySQL</strong> with <strong>RESTful APIs</strong> to eliminate manual data entry and improve workflow efficiency.
+          • Generated branded PDF quotes (ReportLab, sequential AQQ IDs) and emailed the customer plus quotes@acuflow.com so a quote left the site as a numbered artifact, not a spreadsheet export.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Deployed backend services on <strong>Heroku</strong> and integrated with a <strong>GoDaddy-hosted frontend</strong>.
-        </motion.p>
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built a responsive <strong>HTML/CSS/JavaScript frontend</strong> connected to backend APIs for production use.
+          • Shipped the API on Heroku behind a GoDaddy/WordPress form (PHP proxy); cut quote turnaround from days of manual catalog lookup to a same-session selector used in production at /auto-pump-selector/.
         </motion.p>
         
 
@@ -206,13 +189,10 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Configured secure network systems, including Cisco ASA firewalls, Unifi switches, and IP cameras.
+          • Configured customer networks (Cisco ASA, UniFi, IP cameras) and supported sites remotely, including Azure AD.
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Improved website SEO and client engagement through WordPress development.
-        </motion.p>
-        <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Provided technical support and account management using Microsoft Azure and remote tools.
+          • Shipped WordPress changes for client marketing sites.
         </motion.p>
 
         {/* Skill Tags */}

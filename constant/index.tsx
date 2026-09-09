@@ -5,7 +5,7 @@ export const Social_Icons = [
     alt: "Github",
   },
   {
-    link: "https://www.linkedin.com/in/michael-khuri-761129204/",
+    link: "https://www.linkedin.com/in/michael-khuri/",
     image: "/LinkedIn.svg",
     alt: "LinkedIn",
   }

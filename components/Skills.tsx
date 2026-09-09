@@ -50,15 +50,15 @@ const Skills: React.FC = () =>
       >
         <SkillCard title="Languages" skills="Python, C++, JavaScript, TypeScript" />
 
-        <SkillCard title="Frameworks" skills="Next.js, React, Node.js, Express.js, Flask, TailwindCSS" />
+        <SkillCard title="Frameworks" skills="Next.js, React, Flask, Tailwind CSS" />
 
-        <SkillCard title="Databases" skills="PostgreSQL, MySQL, MongoDB, SQLite" />
+        <SkillCard title="Databases" skills="PostgreSQL, MySQL" />
 
-        <SkillCard title="Machine Learning" skills="PyTorch, TensorFlow, OpenCV, NumPy, Matplotlib, YOLO (Ultralytics), CUDA" />
+        <SkillCard title="Machine Learning" skills="PyTorch, OpenCV, YOLO, NumPy" />
 
-        <SkillCard title="Cloud & Tools" skills="AWS, Docker, Linux, Git, GitHub, OpenAI API, Jupyter" />
+        <SkillCard title="Cloud & Tools" skills="Railway, Heroku, Stripe, Git, GitHub, Linux" />
 
-        <SkillCard title="Concepts" skills="Data Structures & Algorithms, System Design, REST APIs, OOP, CI/CD" />
+        <SkillCard title="Concepts" skills="REST APIs, JWT/RBAC, OOP" />
       </motion.div>
     </motion.section>
   );

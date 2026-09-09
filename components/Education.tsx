@@ -66,6 +66,9 @@ const Education: React.FC<{}> = () =>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
           • Autonomous Systems Specialization
         </motion.p>
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • Coursework: Machine Learning (CMPE 257); Deep Learning and Computer Vision (CMPE 297)
+        </motion.p>
 
 
         {/* California State University Fullerton */}
@@ -90,7 +93,7 @@ const Education: React.FC<{}> = () =>
           • Participated in two 24-hour hackathons (SmartTuffy & Project Green Tusk)
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Dean&apos;s List — Cum Laude
+          • Dean&apos;s List — Cum Laude, GPA 3.61
         </motion.p>
 
 

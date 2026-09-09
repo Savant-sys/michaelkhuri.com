@@ -50,46 +50,46 @@ const Projects: React.FC<{}> = () =>
         >
         <ProjectCard
           title="RoadAware"
-          description="Built a road-scene object detection system using BDD100K dashcam images. Fine-tuned and compared YOLOv8m and Faster R-CNN for traffic object detection across 8 classes, with evaluation using mAP, F1, per-class AP, confusion matrices, and FPS."
+          description="Road-scene detection on a 10,000-image BDD100K subset (8 traffic classes). Compared YOLOv8m vs Faster R-CNN ResNet-50 FPN; best YOLOv8m reached 0.515 mAP@0.5, 0.734 F1, and 64.9 FPS."
           skills={["Python", "PyTorch", "TorchVision", "YOLOv8", "OpenCV"]}
-          link="https://huggingface.co/spaces/AadMa/bdd-object-detection"
+          link="https://github.com/Savant-sys/RoadAware"
           image="/roadawared.png"
-          githubLink="https://github.com/amarahatta/Object-Detection/tree/main"
+          githubLink="https://github.com/Savant-sys/RoadAware"
           youtubeLink="https://youtu.be/CNPKmXZdYqc"
-          websiteLink="https://huggingface.co/spaces/AadMa/bdd-object-detection"
+          websiteLink="https://huggingface.co/spaces/amarahatta/bdd-object-detection"
         />
-
-        {/* <ProjectCard
-          title="Autonomous Lane Detection System"
-          description="Real-time lane detection system for autonomous vehicles using computer vision techniques."
-          skills={["Python", "OpenCV", "NumPy"]}
-          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
-          image="/TenthProject.png"
-          githubLink="https://github.com/Savant-sys/Autonomous-Lane-Detection-System"
-          youtubeLink="https://www.youtube.com/watch?v=yOJP7iISu4k"
-        /> */}
 
         <ProjectCard
           title="Gap Reconstruction for Autonomous Vision"
-          description="Built a multi-camera perception pipeline using Waymo camera images to stitch panoramic scenes, simulate missing field-of-view gaps, 
-          reconstruct them with LaMa, and evaluate YOLO detection recovery."
+          description="CMPE 297 team project (stitching/integration): Waymo multi-camera panoramas, camera-ID gap masking, LaMa inpainting, YOLO eval. Inpainting did not restore detections in missing fields of view."
           skills={["Python", "OpenCV", "PyTorch", "LaMa", "YOLO"]}
           image="/gap-reconstruction.png"
-          link="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision" 
+          link="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision"
           githubLink="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision"
         />
 
         <ProjectCard
+          title="Acuflow Quote Generator"
+          description="Production pump quoter on acuflow.com: after QuickBooks quoting/invoices, Flask matches a MySQL catalog (~50 spec columns) and emails branded PDF quotes (AQQ IDs)."
+          skills={["Flask", "MySQL", "JavaScript", "Python"]}
+          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          image="/NinethProject.png"
+          githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
+          youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
+          websiteLink="https://www.acuflow.com/auto-pump-selector/"
+        />
+
+        <ProjectCard
           title="NeuronBook"
-          description="Built a full-stack AI learning platform with Next.js, Flask, and Sanity, featuring PDF reading, Socratic Q&A, and knowledge graph visualization. Deployed on Vercel and Railway."
+          description="Full-stack AI reading platform with PDF viewing, Socratic Q&A, and knowledge graph visualization. Next.js, Flask, Sanity. Deployed on Vercel and Railway."
           skills={["Next.js", "Sanity", "Flask", "React PDF", "Tailwind CSS"]}
-          link="https://github.com/Savant-sys/neuron-book"
+          link="https://github.com/NeuronBookAI/Neuron-Book"
           image="/neuronbook.jpeg"
           githubLink="https://github.com/NeuronBookAI/Neuron-Book"
           youtubeLink="https://www.youtube.com/watch?v=SNowMQ69PAc"
           websiteLink="https://neuron-book-6198.d.kiloapps.io/"
         />
-        
+
         <ProjectCard
           title="SmartTuffy"
           description="AI chatbot that helps students find class schedules and campus events. Built in 24 hours for CSUF Hackathon."
@@ -97,27 +97,6 @@ const Projects: React.FC<{}> = () =>
           link="https://github.com/Savant-sys/SmartTuffy"
           image="/SecondProject.png"
           githubLink="https://github.com/Savant-sys/SmartTuffy"
-        />
-
-        <ProjectCard
-          title="Detection"
-          description="Immersive VR first-person shooter game with physics-based mechanics and AI enemies."
-          skills={["Unity", "C#", "VR Development"]}
-          link="https://detectiongame.com/"
-          image="/FirstProject.png"
-          youtubeLink="https://www.youtube.com/watch?v=Dj0y_OX5fII"
-          websiteLink="https://detectiongame.com/"
-        />
-
-          <ProjectCard
-          title="Acuflow Quote Generator"
-          description="Full-stack web app for generating quotes with automated PDFs and email workflows."
-          skills={["Flask", "MySQL", "JavaScript", "Python"]}
-          link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
-          image="/NinethProject.png"
-          githubLink="https://github.com/Savant-sys/Acuflow-Quote-Generator"
-          youtubeLink="https://www.youtube.com/watch?v=JDMOYXBoGl0"
-          websiteLink="https://www.acuflow.com/auto-pump-selector/"
         />
       </motion.div>
       <motion.div
