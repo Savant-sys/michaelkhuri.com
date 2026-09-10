@@ -45,7 +45,7 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I&apos;m Michael Khuri, founding full-stack engineer at <strong>Star4ce</strong>
+          I&apos;m Michael Khuri, founding full-stack engineer at <strong>Star4ce </strong>
           and an <strong>M.S. Artificial Intelligence</strong> student at San José State University,
           specializing in autonomous systems.
           <br /><br />
