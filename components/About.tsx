@@ -50,7 +50,7 @@ const About: React.FC<{}> = () =>
           specializing in autonomous systems.
           <br /><br />
           I build and deploy software, including a multi-tenant dealership retention platform
-          using <strong>Next.js, Flask, and PostgreSQL</strong> and a production pump-quoting tool
+          using <strong>Next.js, Flask, and PostgreSQL,</strong> and a production pump-quoting tool
           for AcuFlow. At TRSTXCYBER, I integrated client onboarding tools to support sales qualification.
           <br /><br />
           My computer vision projects include training and comparing road-scene detectors on
