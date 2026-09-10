@@ -67,7 +67,10 @@ const Education: React.FC<{}> = () =>
           • Autonomous Systems Specialization
         </motion.p>
         <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
-          • Coursework: Machine Learning (CMPE 257); Deep Learning and Computer Vision (CMPE 297)
+          • Completed coursework (first semester): Machine Learning (CMPE 257); Deep Learning and Computer Vision (CMPE 297); Artificial Intelligence and Data Engineering (CMPE 252)
+        </motion.p>
+        <motion.p className="text-gray-300 pt-5" variants={fadeInUp}>
+          • In progress: Deep Learning (CMPE 258); Math Foundations for Decision and Data Sciences (ISE 201)
         </motion.p>
 
 
