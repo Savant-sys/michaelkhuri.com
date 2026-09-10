@@ -14,9 +14,9 @@ export default function Home()
         <Banner />
         <About />
         <Experience />
+        <Education />
         <Projects />
         <Skills />
-        <Education />
         <Footer />
       </div>
     </main>

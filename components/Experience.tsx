@@ -63,19 +63,19 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Shipped Star4ce, a multi-tenant dealer retention platform (<strong>Next.js/TypeScript, Flask, PostgreSQL</strong>): 44 tables for employees, surveys, ATS, turnover, and billing, with store-level isolation and corporate portfolio access.
+          • Built and deployed a multi-tenant dealership retention platform using <strong>Next.js, TypeScript, Flask, and PostgreSQL</strong>, with 44 tables supporting employee surveys, hiring workflows, turnover analytics, and billing
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built 250+ REST endpoints across 26 Flask blueprints with JWT + a 5-role / 50+ permission RBAC matrix (per-user overrides) so one store cannot read another&apos;s employees, surveys, or Stripe billing.
+          • Implemented 250+ <strong>REST</strong> endpoints with <strong>JWT</strong> authentication and a 5-role / 50+ permission <strong>RBAC</strong> model, enforcing store-level data access and corporate portfolio permissions
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Modeled hiring, 90-day success plans, survey scoring, interview scorecards, and subscription state in Postgres and evolved the live schema with idempotent migrations across Railway dev/prod.
+          • Designed <strong>PostgreSQL</strong> models for hiring, 90-day success plans, survey scoring, and subscriptions; maintained idempotent schema migrations across <strong>Railway</strong> development and production environments
         </motion.p>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Built the dealer hub (90+ Next.js routes) for 90-day check-ins, survey dispatch, scorecards, turnover analytics, and LLM-backed candidate / command-center reports, backed by 80+ pytest files (400+ tests).
+          • Developed dealer workflows and LLM-backed candidate reports across 90+ <strong>Next.js</strong> routes; supported backend validation with a <strong>400+ test pytest suite</strong>
         </motion.p>
 
         {/* Skill Tags */}
@@ -146,13 +146,13 @@ const Experience: React.FC<{}> = () =>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • After a month of quoting, invoices, and purchases in <strong>QuickBooks</strong>, replaced spreadsheet quoting with a live selector on acuflow.com: sales enter ~30 flow/pressure/material/accessory fields; Flask matches a MySQL pump catalog (~50 spec columns) using manufacturer rules and picks the closest model at ≤2× requested flow.
+          • Built a production <strong>Flask/MySQL</strong> pump selector that replaced manual catalog lookup, reducing quote turnaround from days to a single session
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Generated branded PDF quotes (ReportLab, sequential AQQ IDs) and emailed the customer plus quotes@acuflow.com so a quote left the site as a numbered artifact, not a spreadsheet export.
+          • Translated manufacturer selection rules into catalog matching based on flow, pressure, materials, and accessories; automated branded PDF quotes and customer/sales email delivery using <strong>ReportLab</strong>
         </motion.p>
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
-          • Shipped the API on Heroku behind a GoDaddy/WordPress form (PHP proxy); cut quote turnaround from days of manual catalog lookup to a same-session selector used in production at /auto-pump-selector/.
+          • Deployed the <strong>REST API</strong> on <strong>Heroku</strong> and integrated a WordPress form through a <strong>PHP</strong> proxy to support the live quoting workflow on acuflow.com
         </motion.p>
         
 

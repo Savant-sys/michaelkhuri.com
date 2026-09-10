@@ -50,7 +50,7 @@ const Projects: React.FC<{}> = () =>
         >
         <ProjectCard
           title="RoadAware"
-          description="Road-scene detection on a 10,000-image BDD100K subset (8 traffic classes). Compared YOLOv8m vs Faster R-CNN ResNet-50 FPN; best YOLOv8m reached 0.515 mAP@0.5, 0.734 F1, and 64.9 FPS."
+          description="YOLOv8m: 0.515 mAP@0.5, 0.734 F1, 64.9 FPS on 10,000 BDD100K images (8 traffic classes). Compared against Faster R-CNN ResNet-50 FPN with imbalance sampling."
           skills={["Python", "PyTorch", "TorchVision", "YOLOv8", "OpenCV"]}
           link="https://github.com/Savant-sys/RoadAware"
           image="/roadawared.png"
@@ -61,7 +61,7 @@ const Projects: React.FC<{}> = () =>
 
         <ProjectCard
           title="Gap Reconstruction for Autonomous Vision"
-          description="CMPE 297 team project (stitching/integration): Waymo multi-camera panoramas, camera-ID gap masking, LaMa inpainting, YOLO eval. Inpainting did not restore detections in missing fields of view."
+          description="Implemented panorama stitching and integration for a Waymo multi-camera team project. Team evaluation found LaMa inpainting did not restore YOLO detections in masked fields of view."
           skills={["Python", "OpenCV", "PyTorch", "LaMa", "YOLO"]}
           image="/gap-reconstruction.png"
           link="https://github.com/Savant-sys/Gap-Reconstruction-in-Autonomous-Panoramic-Vision"
@@ -70,7 +70,7 @@ const Projects: React.FC<{}> = () =>
 
         <ProjectCard
           title="Acuflow Quote Generator"
-          description="Production pump quoter on acuflow.com: after QuickBooks quoting/invoices, Flask matches a MySQL catalog (~50 spec columns) and emails branded PDF quotes (AQQ IDs)."
+          description="Production Flask/MySQL pump selector that replaced manual catalog lookup, reducing quote turnaround from days to a single session with automated PDF quotes and email delivery."
           skills={["Flask", "MySQL", "JavaScript", "Python"]}
           link="https://github.com/Savant-sys/Acuflow-Quote-Generator"
           image="/NinethProject.png"

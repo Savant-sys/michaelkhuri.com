@@ -14,8 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Michael Khuri — Founding Full-Stack Engineer</title>
-        <meta name="description" content="MS AI @ SJSU. Founding full-stack engineer at Star4ce. Perception projects on BDD100K and Waymo cameras." />
+        <title>Michael Khuri | Software Engineering & Computer Vision</title>
+        <meta name="description" content="Founding full-stack engineer at Star4ce and M.S. AI student at SJSU specializing in autonomous systems. Explore software engineering and computer vision projects." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/Me.png" type="image/x-icon" />
       </head>

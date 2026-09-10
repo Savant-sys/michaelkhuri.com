@@ -45,22 +45,22 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          I&apos;m Michael Khuri, an
-          <strong> M.S. Artificial Intelligence</strong> student at
-          San José State University (autonomous systems).
+          I&apos;m Michael Khuri, founding full-stack engineer at <strong>Star4ce</strong>
+          and an <strong>M.S. Artificial Intelligence</strong> student at San José State University,
+          specializing in autonomous systems.
           <br /><br />
-
-          I shipped <strong>Star4ce</strong>, a multi-tenant dealer retention platform
-          (<strong>Next.js</strong>, <strong>Flask</strong>, <strong>PostgreSQL</strong>),
-          and a live pump-quoting tool still used on acuflow.com.
+          I build and deploy software, including a multi-tenant dealership retention platform
+          using <strong>Next.js, Flask, and PostgreSQL</strong> and a production pump-quoting tool
+          for AcuFlow. At TRSTXCYBER, I integrated client onboarding tools to support sales qualification.
           <br /><br />
-
-          Coursework and projects: road-scene detection on <strong>BDD100K</strong> /
-          <strong> YOLOv8</strong>, and panoramic gap reconstruction on
-          <strong> Waymo</strong> camera images (<strong>PyTorch</strong>, <strong>OpenCV</strong>).
+          My computer vision projects include training and comparing road-scene detectors on
+          <strong> BDD100K</strong> and implementing panorama stitching and integration for a
+          <strong> Waymo</strong> multi-camera team project. Our evaluation found that LaMa inpainting
+          did not restore YOLO detections in masked fields of view.
           <br /><br />
+          I&apos;m interested in full-time software engineering opportunities, with a particular
+          focus on computer vision, perception, and autonomous systems.
 
-          Open to full-time software engineering roles.
         </motion.p>
 
       </motion.div>
