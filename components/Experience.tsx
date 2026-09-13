@@ -108,7 +108,7 @@ const Experience: React.FC<{}> = () =>
             </div>
             <p className="text-gray-300">Technical Sales Engineer</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">May 2025 - July 2025</p>
+          <p className="text-gray-300 md:pt-0 pt-2">May 2025 - July 2025 · Huntington Beach, CA</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
@@ -185,7 +185,7 @@ const Experience: React.FC<{}> = () =>
             </div>
             <p className="text-gray-300">Network Administrator</p>
           </div>
-          <p className="text-gray-300 md:pt-0 pt-2">March 2023 - May 2024</p>
+          <p className="text-gray-300 md:pt-0 pt-2">March 2023 - May 2024 · Costa Mesa, CA</p>
         </motion.div>
 
         <motion.p className="text-gray-300 pt-3 md:pt-5" variants={fadeInUp}>
