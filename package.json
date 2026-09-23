@@ -18,7 +18,7 @@
     "next": "^16.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "^0.33.0",
+    "sharp": "^0.35.4",
     "three": "^0.170.0"
   },
   "devDependencies": {
@@ -32,5 +32,9 @@
     "react-intersection-observer": "^9.5.3",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "sharp@0.35.4": true,
+    "unrs-resolver@1.11.1": true
   }
 }
